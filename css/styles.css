@@ -1,0 +1,502 @@
+ /*--Reseteo de Css--*/
+
+ * {
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ ul,
+ ol {
+     list-style: none;
+ }
+
+ nav ul li {
+    display: inline-block
+}
+
+/*--Etiquetas a--*/
+
+ a {
+     text-decoration: none;
+     font-family: "late";
+     font-weight: 700;
+     color: black;
+
+ }
+
+ a:active{
+    color:blue
+ }
+
+ 
+
+ /*--Fuentes utilizadas en el proyecto--
+
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; */
+
+
+ /*--Clases para Título Principal, Secundario, Subtítulos, Párrafo, Listas, Aside, etc --*/
+
+ /*--Mobile Fisrt--*/
+
+ .titulo-newsletter {
+
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Lato", sans serif;
+    font-weight: 900;
+    color:black
+    
+
+}
+
+
+ .titulo-principal--h1 {
+
+     font-family: "Merriweather", sans-serif;
+     font-weight: 900;
+     font-size: 2.5rem;
+     text-align: center;
+     padding-top: 1.5rem;
+     color:white;
+
+ }
+
+
+.subtitulo-titulo-principal {
+
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Lato", sans serif;
+    font-weight: 700;
+    color:white
+
+}
+
+ .titulo-secundario--secciones-home-page {
+
+     font-family: "Merriweather", sans-serif;
+     font-weight: 700;
+     font-size: 1.5rem;
+     text-align: center;
+     color: black;
+ }
+
+ .titulo-secundario--secciones-pages {
+
+     font-family: "Merriweather", sans-serif;
+     font-weight: 700;
+     font-size: 3.5rem;
+     text-align: center;
+     color: black;
+ }
+
+ .titulo-aside{
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    
+    
+ }
+
+ .subtitulo-aside{
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+ }
+
+.etiqueta-nombres--lugares-comidas {
+   
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.parrafo {
+ 
+    font-family: "Lato", sans serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.idioma{
+    font-family:"lato", sans serif;
+    font-weight: 700;
+    font-size: 0.1;
+    color: black
+   
+}
+
+
+    
+
+
+/*--Botón Subscripción--Botón Subscripción Hover*/ 
+
+.btn {
+
+text-decoration: none;
+display: block;
+width: fit-content;
+border: 1px solid black;
+padding: 0.5rem 0-5rem;
+border-radius: 5px;
+background-color: rgb(199, 198, 198);
+font-size: 1rem;
+font-weight: 700;
+
+}
+
+.btn:hover{
+
+    background-color: grey;
+
+}
+
+/*--Seudoclase Formulario--*/ 
+
+input:focus {
+border: 2px solid black
+}
+
+
+/*--Imagen de fondo en Portada--*/
+
+
+@media (min-width: 320px) {
+
+.portada {
+    background-image: url("../img/portada2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 200px;
+    width: 100vw; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.portada-suscribite {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.5rem;
+    gap:1rem;
+}
+
+   
+
+
+.titulo-secundario--secciones-home-page {
+ 
+ padding-bottom: 0.6rem;
+ padding-top: 2rem;
+}
+  
+.parrafo-historia {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align:justify center;
+    
+}
+
+
+}
+.contenedor-mapa {
+    height: 150px;
+    width: 100%;
+    padding-bottom: 1.5rem;
+ 
+}
+.contenedor-mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*--Aside "Egipto Festivo"--*/
+
+.aside-festividades{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.caja-aside--festividades {
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+    padding: 1.5rem;
+    margin-right: 1rem;
+    border: solid 1px;
+    background-color: rgb(160, 207, 219);
+    position: relative;
+}
+
+
+.titulo-aside--h3-festivo {
+
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+}
+
+/*--Aside "Egipto Fascinante"--*/
+
+
+.aside-curiosidades {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: space-around; 
+}
+
+.caja-aside--curiosidades {
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+    padding: 1.5rem;
+    margin-left: 1rem;
+    border: solid 1px;
+    background-color: rgb(160, 207, 219);
+    position: relative;
+}
+
+.titulo-aside--h3-curiosidades {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/*--Sección "Lugares para Descubrir--*/
+
+.parrafo-intro-seccion {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align:justify center;
+    
+}
+
+/*--Estilos de Sección Actividades--*/
+
+.imagen-experiencias--nilo {
+    width: 200px;
+    height: 150px;
+    margin-left: 15px;
+    padding-top: 0.5rem;
+ 
+}
+
+.nombre-actividad--nilo{
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.imagen-experiencias--camello {
+    width: 230px;
+    height: 150px;
+    position:relative;
+    left: 150px;
+    bottom: 20px;
+}
+
+.nombre-actividad--camello {
+   font-size: 1rem;
+   padding-left: 15rem;
+   position: relative;
+   bottom: 10px;
+   
+}
+
+.imagen-experiencias--danza {
+    width: 200px;
+    height: 150px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 60px;
+}
+
+.nombre-actividad--danza{
+    font-size: 1rem;
+    margin-left: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+/*--Estilos de Sección Gastronomía--*/
+
+.titulo-secundario--secciones-home-page-gastronomia {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    padding-bottom: 0.6rem;
+   }
+
+.imagen-sec-gastronomia {
+    background-image: url(../img/comida.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 100vw; 
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ul-nombres-comidas {
+    text-align: start;
+    justify-content: center;
+    padding-left: 3rem;
+    color: white;
+    
+}
+
+/*--Estilos de Sección Compras--*/
+
+.imagen-sec-compras {
+    background-image: url(../img/bazar.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 250px;
+    width: 100vw; 
+    margin-top: 1.5rem;
+    
+
+}
+
+.titulo-secundario--secciones-home-page-compras {
+
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding-top: 1.5rem;
+
+}
+
+.parrafo-compras {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align:justify center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color:white;
+    font-weight: 700;
+      
+}
+
+.link-compras {
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+    
+}
+
+/*--Footer--*/
+
+
+.footer {
+    background-color: grey;
+    color: white;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*--Footer-Links--*/
+
+
+.footer-sec{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer-links {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+/*--Footer-Contacto--*/
+
+.footer-contacto {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer-lista--contacto {
+    text-align: center;
+    padding: 0.5rem;
+  
+}
+
+/*--Footer-Formulario--*/
+
+.form-parrafo {
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.form-label {
+    display: flex;
+    justify-content: center;
+    gap:1.5rem
+}
+
+.form-checkbox {
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    padding-top: 0.5rem;
+   
+}
+
+
+
+
+@media (min-width: 768px){
+.portada {
+    object-fit: contain;
+    width: 100vw;
+    height: 550px;
+}
+}
+
+
+
+
+
+
+
+ 
+
