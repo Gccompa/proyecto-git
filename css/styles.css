@@ -41,6 +41,9 @@ font-family: 'Merriweather', serif; */
 
  /*--Mobile Fisrt--*/
 
+ @media (min-width: 375px) {
+
+
  .titulo-newsletter {
 
     font-size: 1rem;
@@ -128,13 +131,7 @@ font-family: 'Merriweather', serif; */
     font-size: 1rem;
 }
 
-.idioma{
-    font-family:"lato", sans serif;
-    font-weight: 700;
-    font-size: 0.1;
-    color: black
-   
-}
+
 
 
     
@@ -172,16 +169,14 @@ border: 2px solid black
 /*--Imagen de fondo en Portada--*/
 
 
-@media (min-width: 320px) {
 
 .portada {
     background-image: url("../img/portada2.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    background-size: contain;
-    height: 200px;
-    width: 100vw; 
+    background-size: contain; 
+    width: 100vw;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     display: flex;
@@ -481,16 +476,69 @@ padding-right: 1.5rem;
    
 }
 
+/*--Tablet -- Index "Home Page" */
 
 
 
-@media (min-width: 768px){
+@media  (min-width: 768px) {
+
 .portada {
     object-fit: contain;
     width: 100vw;
-    height: 550px;
+    height: 65vh;
+    
+
 }
+
+.portada-suscribite {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
 }
+
+.titulo-newsletter {
+    font-size: 1.5rem;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.titulo-principal--h1 {
+    font-size: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.subtitulo-titulo-principal {
+    font-size: 1.5rem;
+}
+
+.header 
+
+  
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
+}
+
+a {
+    font-size: 1.3rem;
+}
+
+.seccion-historia {
+    display: grid;
+    grid-template-columns: 500px;
+    
+}
+
+}
+
+
 
 
 
