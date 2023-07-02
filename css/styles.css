@@ -177,7 +177,6 @@ border: 2px solid black
     background-attachment: fixed;
     background-size: contain; 
     width: 100vw;
-    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -530,21 +529,34 @@ a {
     font-size: 1.3rem;
 }
 
-.seccion-historia {
-    display: grid;
-    grid-template-columns: 500px;
-    
-}
+/*--Sección - "Historia" */
 
-}
-
-
-
-
-
-
-
-
-
+.titulo-secundario--secciones-home-page {
  
+    padding-top: 5rem;
+   }
 
+.grilla-historia {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: o.5rem;
+}
+
+.contenedor-mapa {
+    height: 80%;
+     
+}
+
+.contenedor-mapa-iframe {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 2.5rem;
+    
+   
+}
+
+
+
+}
