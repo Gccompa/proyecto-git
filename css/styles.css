@@ -557,6 +557,96 @@ a {
    
 }
 
+/*--Sección - "Aside" */
+
+
+.caja-aside--festividades {
+    width: 350px;
+    height: 500px;
+
+}
+
+.caja-aside--curiosidades {
+    width: 350px;
+    height: 500px;
+}
+
+.subtitulo-aside {
+    font-size: 1.3rem;
+}
+
+
+/*--Sección - "Visitar" */
+
+.carrusel {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+}
+
+/*--Sección - "Actividades" */
+
+.grilla-actividades {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-top: 1rem;
+    justify-content: space-around;
+   
+    
+    
+}
+
+.grilla-actividades--parrafo {
+    display: grid;
+    grid-template-rows: 1/3;
+    justify-items: end;
+    align-items: center;
+ 
+
+    
+}
+
+.grilla-actividades--imagenes {
+    display: grid;
+    grid-column: 2 / 3 ;
+    justify-content: center;
+    
+ 
+    
+}
+
+/*--Sección - "Gastronomía" */
+
+
+.grilla-gastronomia {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 1rem;
+
+}
+
+.imagen-sec-gastronomia {
+display: grid;
+width: 60vw;
+height: 250px; 
+   
+
+}
+
+.ul-nombres-comidas {
+    text-align: start;
+    justify-content: start;
+    color: white;
+    
+}
+
+/*--Sección - "Compras" */
+
+.parrafo-compras {
+    display: grid;
+    text-align: center;
+    padding-top: 1rem;
+}
 
 
 }
