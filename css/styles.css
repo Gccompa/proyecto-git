@@ -284,7 +284,7 @@ padding-right: 1.5rem;
 
 /*--Sección "Lugares para Descubrir--*/
 
-.parrafo-intro-seccion {
+.parrafo-intro-seccion--visitas {
     margin-left: 0.8rem;
     margin-right: 0.8rem;
     text-align:justify center;
@@ -513,7 +513,7 @@ padding-right: 1.5rem;
     font-size: 1.5rem;
 }
 
-.header 
+
 
   
 
@@ -648,5 +648,178 @@ height: 250px;
     padding-top: 1rem;
 }
 
+
+}
+
+/*--Desktop -- Index "Home Page" */
+
+
+
+
+
+@media  (min-width: 1200px) {
+
+/*--Portada--" */
+
+
+    .portada {
+        
+        width: 100vw;
+        height: 60vw;
+        padding-bottom: 0.5rem;
+       
+    }
+    
+    .portada-suscribite {
+    
+    font-size: 2rem;
+      
+}
+
+.titulo-newsletter {
+    font-size: 2rem;
+    padding-top: 5rem;
+    
+}
+
+.titulo-principal--h1 {
+    font-size: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.subtitulo-titulo-principal {
+    font-size: 2rem;
+}
+
+.nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;   
+   
+}
+
+a {
+    font-size: 1.5rem;
+ 
+}
+
+/*--Sección - "Historia" */
+
+.titulo-secundario--secciones-home-page {
+ 
+    font-size: 2rem;
+   }
+
+
+.grilla-desktop-historia {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap:1rem;
+}
+
+.contenedor-mapa {
+    height: 100%;
+   padding-bottom: 3rem;
+     
+   
+}
+
+
+/*--Aside--" */
+
+.titulo-aside--h3-festivo {
+
+   display: none;
+    }
+
+.aside-festividades{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: end;   
+}
+
+.caja-aside--festividades {
+    width: 300px;
+    height: 750px;
+  
+}
+
+.titulo-aside--h3-curiosidades {
+    display: none;
+ }
+ 
+
+.aside-curiosidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 1rem;
+}
+
+.caja-aside--curiosidades {
+    width: 300px;
+    height: 1100px;
+ 
+}
+
+/*--Area - Section y Aside--" */
+
+.contenedor-visitas {
+    width: 70vw;
+    height: 100%;
+}
+
+
+
+.contenedor-actividades {
+    width: 70vw;
+    height: 100%;
+}
+
+/*--Gastronomia--" */
+
+.grilla-gastronomia {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+
+
+}
+
+.imagen-sec-gastronomia {
+display: grid;
+width: 40vw;
+height: 250px; 
+   
+
+}
+
+.ul-nombres-comidas {
+    text-align: start;
+    justify-content: start;
+    color: white;
+    
+}
+
+/*--Footer--" */
+
+.enlaces-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+
+
+    
+}
 
 }
