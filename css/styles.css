@@ -37,12 +37,14 @@ font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif; */
 
 
- /*--Clases para Título Principal, Secundario, Subtítulos, Párrafo, Listas, Aside, etc --*/
-
- /*--Mobile Fisrt--*/
+ 
+ /*--Mobile Fisrt--Index "HOME PAGE" */
 
  @media (min-width: 375px) {
 
+
+
+  /*--Títulos / Párrafos / Subtítulos-- */  
 
  .titulo-newsletter {
 
@@ -50,11 +52,9 @@ font-family: 'Merriweather', serif; */
     text-align: center;
     font-family: "Lato", sans serif;
     font-weight: 900;
-    color:black
-    
+    color:black   
 
 }
-
 
  .titulo-principal--h1 {
 
@@ -66,7 +66,6 @@ font-family: 'Merriweather', serif; */
      color:white;
 
  }
-
 
 .subtitulo-titulo-principal {
 
@@ -101,8 +100,7 @@ font-family: 'Merriweather', serif; */
     font-weight: 700;
     font-size: 1.8rem;
     text-align: center;
-    
-    
+       
  }
 
  .subtitulo-aside{
@@ -131,13 +129,9 @@ font-family: 'Merriweather', serif; */
     font-size: 1rem;
 }
 
+  
 
-
-
-    
-
-
-/*--Botón Subscripción--Botón Subscripción Hover*/ 
+/*--Botón Subscripción del Footer -- Botón Subscripción Hover*/ 
 
 .btn {
 
@@ -159,6 +153,7 @@ font-weight: 700;
 
 }
 
+
 /*--Seudoclase Formulario--*/ 
 
 input:focus {
@@ -166,8 +161,10 @@ border: 2px solid black
 }
 
 
-/*--Imagen de fondo en Portada--*/
+/*--Portada--*/
 
+
+/*--Imagen de fondo en Portada--*/
 
 
 .portada {
@@ -189,7 +186,12 @@ border: 2px solid black
     margin-right: 1rem;
 }
 
+.titulo-newsletter {
+    padding-top: 0.5rem;
+}
 
+
+/*--Barra de Navegación--*/
 
 .nav {
     display: flex;
@@ -199,7 +201,8 @@ border: 2px solid black
     gap:1rem;
 }
 
-   
+   /*--Sección "Historia"--*/
+
 
 
 .titulo-secundario--secciones-home-page {
@@ -215,8 +218,10 @@ border: 2px solid black
     
 }
 
+/*--Mapa de Sección "Historia"--*/
 
-}
+
+
 .contenedor-mapa {
     height: 150px;
     width: 100%;
@@ -227,6 +232,7 @@ border: 2px solid black
     width: 100%;
     height: 100%;
 }
+
 
 /*--Aside "Egipto Festivo"--*/
 
@@ -291,7 +297,7 @@ padding-right: 1.5rem;
     
 }
 
-/*--Estilos de Sección Actividades--*/
+/*-- Sección "Actividades--*/
 
 .imagen-experiencias--nilo {
     width: 200px;
@@ -338,7 +344,7 @@ padding-right: 1.5rem;
     bottom: 50px;
 }
 
-/*--Estilos de Sección Gastronomía--*/
+/*-- Sección "Gastronomía"--*/
 
 .titulo-secundario--secciones-home-page-gastronomia {
     font-family: "Merriweather", sans-serif;
@@ -370,14 +376,14 @@ padding-right: 1.5rem;
     
 }
 
-/*--Estilos de Sección Compras--*/
+/*-- Sección "Compras"--*/
 
 .imagen-sec-compras {
     background-image: url(../img/bazar.jpg);
     background-repeat: no-repeat;
     
     background-size: cover;
-    height: 250px;
+    
     width: 100vw; 
     margin-top: 1.5rem;
     
@@ -475,7 +481,10 @@ padding-right: 1.5rem;
    
 }
 
-/*--Tablet -- Index "Home Page" */
+ }
+
+
+/*--Tablet -- Index "HOME PAGE" */
 
 
 
@@ -651,7 +660,7 @@ height: 250px;
 
 }
 
-/*--Desktop -- Index "Home Page" */
+/*--Desktop -- Index "HOME PAGE" */
 
 
 
@@ -823,3 +832,70 @@ height: 250px;
 }
 
 }
+
+ 
+ /*--Mobile Fisrt-- "VISITAR" */
+
+ @media (min-width: 375px) {
+
+.parrafo-intro-lugares {
+
+  font-family: lato sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  text-align:justify center;
+  padding-bottom: 2.5rem;
+  padding-top: 1rem;
+}
+
+/*--Tajetas - Imagenes Lugares para Visitar" */
+
+
+/*--Tajeta - Pirámides de Giza */
+
+
+.tarjeta-lugares {
+    width: 350px;
+    display: flex;
+    flex-direction: column;  
+    margin-left: 2rem;
+    margin-right: 2rem;  
+    padding: 1rem;
+    }
+    
+.tarjeta-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen {
+
+    width: 330px;
+    height: 200px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+
+
+ /*-- .parrafo-tarjeta-lugares {
+
+/*-- .titulo-tarjeta-lugares
+ {
+
+}  
+
+--*/
+
+
+
+
+
+
+
+
+
+ }
