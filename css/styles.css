@@ -869,6 +869,7 @@ height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .imagen {
@@ -890,12 +891,122 @@ height: 250px;
 
 --*/
 
-
-
-
-
-
-
-
-
  }
+
+
+ /*--Tablet -- Sección "VISITAR" */
+
+
+
+@media  (min-width: 768px) {
+
+    .parrafo-intro-lugares {  
+       
+        margin-left: 2rem;
+        margin-right: 2rem;
+       text-align: center;
+       
+      }
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+    
+.tarjeta-lugares {
+    width: 300px;
+     
+    }
+
+    /*
+
+
+.contenedor {
+   display: flex;
+    flex-direction: row;
+    gap:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-bottom: 1rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+footer
+
+*/
+
+
+
+}
+
+/*--Desktop -- Index "HOME PAGE" */
+
+
+
+
+
+@media  (min-width: 1200px) {
+
+    .parrafo-intro-lugares {  
+       
+        margin-left: 5rem;
+        margin-right: 5rem;
+        text-align: center;
+       
+      }
+
+      .contenedor-piramides-simboel-edfu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+         padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+      }
+
+
+      /*
+     .contenedor-alejandria-luxor {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+     }
+*/
+     .contenedor-cairo-filoe-sherik {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+         padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+
+     }
+         
+        }
+
