@@ -40,7 +40,7 @@ font-family: 'Merriweather', serif; */
  
  /*--Mobile Fisrt--Index "HOME PAGE" */
 
- @media (min-width: 375px) {
+ @media (min-width: 400px) {
 
 
 
@@ -60,7 +60,7 @@ font-family: 'Merriweather', serif; */
 
      font-family: "Merriweather", sans-serif;
      font-weight: 900;
-     font-size: 2.5rem;
+     font-size: 1.5rem;
      text-align: center;
      padding-top: 1.5rem;
      color:white;
@@ -514,7 +514,7 @@ padding-right: 1.5rem;
     padding-top: 2rem;
 }
 
-.titulo-principal--h1 {
+.titulo-principal-h1 {
     font-size: 5rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -829,9 +829,9 @@ height: 250px;
     gap: 100px;
     align-items: center;
 
-
     
 }
+
 
 }
 
@@ -839,7 +839,11 @@ height: 250px;
  /*--Mobile Fisrt-- "VISITAR" */
 
  
- @media (min-width: 375px) {
+ @media (min-width: 400px) {
+
+
+/*-- HEADER -- "Portada" --*/
+
 
 .portada-seccion-visitar {
     background-image: url("../img/portada2.jpg");
@@ -858,8 +862,17 @@ height: 250px;
     display: flex;
     align-self: flex-end;
     margin-right: 1rem;
-    padding-top: 0.5rem;
+   
 }
+
+
+.nav {
+    padding-top: 1.5rem;
+}
+
+
+/*--MAIN-- "Sección - Lugares para Descubrir" */
+
 
 .titulo-visitar {
     font-family: "Merriweather", sans-serif;
@@ -883,14 +896,7 @@ height: 250px;
  color: black;
 }
 
-
-
-.nav {
-    padding-top: 1.5rem;
-}
-
-
-/*--Tajetas - Imagenes Lugares para Visitar" */
+/*--Tajetas - Imagenes "Lugares para Descubrir" */
 
 
 /*--Tajeta - Pirámides de Giza */
@@ -942,6 +948,8 @@ height: 250px;
  }
 
 
+
+
  /*--Tablet -- Sección "VISITAR" */
 
 
@@ -949,40 +957,49 @@ height: 250px;
 @media  (min-width: 768px) {
 
 
-   
+   /*-- HEADER -- "Portada" --*/
+
 
     .portada-seccion-visitar{
     
         width: 100vw;
-        height: 65vh;
-        
+        height: 65vh;  
     
     }
-    
-    .portada-suscribite {
-        display: flex;
-        align-self: flex-end;
-        margin-right: 3rem;
-        font-size: 1.5rem;
-        padding-top: 1rem;
-    }
-    
-    .titulo-newsletter {
-        font-size: 1.5rem;
-        justify-content: center;
-        padding-top: 2rem;
-    }
-    
-    .titulo-principal--h1 {
+
+    .titulo-principal-h1 {
         font-size: 5rem;
-        padding-top: 2rem;
+        padding-top: 3rem;
         padding-bottom: 1rem;
     }
     
-    .subtitulo-titulo-principal {
-        font-size: 1.5rem;
+
+    .portada-suscribite-visitar {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+       
     }
     
+    a {
+        font-size: 1.3rem;
+    }
+
+
+}
+
+    /*--MAIN-- "Sección - Lugares para Descubrir" */
+
+  
 
     .parrafo-intro-lugares {  
        
@@ -992,54 +1009,132 @@ height: 250px;
        font-family: "lato", sans-serif;
        font-weight: 400;
        
+       
       }
 
-.contenedor {
-    display: flex;
-    flex-direction: row;
-    gap:1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-}
-    
 .tarjeta-lugares {
     width: 300px;
+    
      
     }
 
- 
-
+.grilla-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat (4 fr 700px);
 
 }
 
-/*--Desktop -- Index "HOME PAGE" */
+.flex-contenedor-tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+  }
+}
 
-
+/*--Desktop -- Sección "VISITAR" */
 
 
 
 @media  (min-width: 1200px) {
 
+
+
+   /*-- HEADER -- "Portada" --*/
+
+    .portada-seccion-visitar {
+        
+        width: 100vw;
+        height: 60vw;
+        padding-bottom: 0.5rem;
+       
+    }
+    
+    .portada-suscribite-visitar {
+    
+        font-size: 2rem;
+      
+}
+
+    .titulo-newsletter {
+
+    font-size: 2rem;
+    padding-top: 5rem;
+    
+}
+
+    .titulo-principal-h1 {
+        
+        font-size: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.subtitulo-titulo-principal {
+    font-size: 2rem;
+}
+
+.nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;   
+   
+}
+
+a {
+    font-size: 1.5rem;
+ 
+}
+
+
+   /*--MAIN-- "Sección - Lugares para Descubrir" */
+
+
+   .titulo-visitar {
+   
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    
+}
+
     .parrafo-intro-lugares {  
        
         margin-left: 5rem;
         margin-right: 5rem;
-        text-align: center;
-       
+        text-align: center; 
        
       }
 
-     
-         
-        }
+     .grilla-contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3 fr 700px);
+        justify-items: center;
+     }
 
-    }
+     .flex-contenedor-tarjeta {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       gap:100px;
+     }
+     
+}
+         
+    
+
+    
+
+
+
+
+
 
 
     /*--Mobile Fisrt-- "ACTIVIDADES" */
 
-    @media (min-width: 375px) {
+    @media (min-width: 400px) {
 
         .portada-actividades {
             background-image: url("../img/portada2.jpg");
