@@ -1155,16 +1155,9 @@ a {
    
     @media (min-width: 400px) {
 
-<<<<<<< HEAD
  /*-- HEADER -- "Portada" --*/
 
         .portada-actividades {
-=======
-
-     /*-- HEADER -- "Portada" --*/
-
-        .portada-seccion-actividades {
->>>>>>> ramacommit
             background-image: url("../img/portada2.jpg");
             background-repeat: no-repeat;
             background-position: top;
@@ -1175,10 +1168,6 @@ a {
             display: flex;
             flex-direction: column;
             
-<<<<<<< HEAD
-=======
-        
->>>>>>> ramacommit
         }
 
 
@@ -1254,7 +1243,6 @@ a {
    max-height: 300px;
 }
 
-<<<<<<< HEAD
     }
 
 
@@ -1298,10 +1286,6 @@ a {
     font-size: 1.5rem;
     padding: 1rem;
 }
-=======
-
-
->>>>>>> ramacommit
 
 .imagen-actividades {
     width: 100vw;
