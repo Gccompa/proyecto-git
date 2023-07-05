@@ -1134,7 +1134,10 @@ a {
 
     /*--Mobile Fisrt-- "ACTIVIDADES" */
 
+   
     @media (min-width: 400px) {
+
+ /*-- HEADER -- "Portada" --*/
 
         .portada-actividades {
             background-image: url("../img/portada2.jpg");
@@ -1147,8 +1150,6 @@ a {
             display: flex;
             flex-direction: column;
             
-        
-        
         }
 
         .portada-suscribite-actividades {
@@ -1162,19 +1163,173 @@ a {
     padding-bottom: 1rem;
 }
 
+ /*-- MAIN -- "Experiencias Imprescindibles" --*/
+
+.titulo-seccion {
+    font-family: "Merriweather", sans-serif;
+     font-weight: 700;
+     font-size: 1.5rem;
+     text-align: center;
+     color: black; 
+     padding-top: 1rem;
+     padding-bottom: 0.5rem;
+}
+
+.parrafo{
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    text-align: justify center;
+    padding-bottom: 1rem;
+}
+
+.subtitulo-seccion {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    color: black; 
+}
 .imagen-actividades {
    width: 100%;
    object-fit: cover;
    padding: 0.5rem;
 }
 
-.parrafo-secc-ctiviades {
-    font-family: "lato", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    text-align: center;
+    }
+
+
+   
+ /*--Tablet -- Sección "ACTIVIDADES" */
+
+
+@media  (min-width: 768px) {
+
+
+    /*-- HEADER -- "Portada" --*/
+    
+
+    .portada-actividades{
+    
+        width: 100vw;
+        height: 65vh;  
+    
+    }
+
+    .portada-suscribite-actividades {
+      
+       font-size: 1.5rem;
+       padding-right: 1rem;
+    }
+
+
+    /*-- MAIN -- "Experiencias Imprescindibles" --*/
+
+    .titulo-seccion{
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    .parrafo {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+.subtitulo-seccion {
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
+.imagen-actividades {
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+}
+
+
+/*--Desktop -- Sección "ACTIVIDADES" */
+
+
+
+@media  (min-width: 1200px) {
+
+
+    /*-- HEADER -- "Portada" --*/
+    
+
+    .portada-actividades{
+    
+        width: 100vw;
+        height: 70vw;  
+    
     }
+
+ 
+    .portada-suscribite-actividades {
+    
+        font-size: 2rem;
+        padding-right: 2rem;
+      
+}
+
+
+  /*-- MAIN -- "Experiencias Imprescindibles" --*/
+
+  .titulo-seccion{
+   font-size: 3rem;
+    padding-top: 3rem;
+    
+}
+
+.parrafo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify center;
+}
+
+.subtitulo-seccion {
+font-size: 2rem;
+padding: 1rem;
+padding-top: 3rem;
+}
+
+
+.imagen-actividades {
+    width: 700px;
+    height: 450px;
+   /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; */
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.contenedor-camello {
+    display: flex;
+    flex-direction:  row-reverse;
+    align-content: center;
+    align-items: center;
+}
+
+}
+
