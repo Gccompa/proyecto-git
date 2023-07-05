@@ -1157,7 +1157,7 @@ a {
 
  /*-- HEADER -- "Portada" --*/
 
-        .portada-actividades {
+        .portada{
             background-image: url("../img/portada2.jpg");
             background-repeat: no-repeat;
             background-position: top;
@@ -1171,7 +1171,14 @@ a {
         }
 
 
-        .portada-suscribite-actividades {
+        
+    .titulo-principal-h1 {
+        font-size: 5rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+        .portada-suscribite {
           
             display: flex;
             align-self: flex-end;
