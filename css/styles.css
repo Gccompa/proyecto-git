@@ -44,9 +44,9 @@ font-family: 'Merriweather', serif; */
 
 
 
-  /*--Títulos / Párrafos / Subtítulos-- */  
+  /*--Títulos / Párrafos / Subtítulos Generales que se irán modificando-- */  
 
- .titulo-newsletter {
+ .portada-titulo-newsletter {
 
     font-size: 1rem;
     text-align: center;
@@ -56,7 +56,7 @@ font-family: 'Merriweather', serif; */
 
 }
 
- .titulo-principal-h1 {
+ .portada-titulo-h1 {
 
      font-family: "Merriweather", sans-serif;
      font-weight: 900;
@@ -67,7 +67,7 @@ font-family: 'Merriweather', serif; */
 
  }
 
-.subtitulo-titulo-principal {
+.portada-subtitulo-h1 {
 
     font-size: 1.2rem;
     text-align: center;
@@ -77,15 +77,18 @@ font-family: 'Merriweather', serif; */
 
 }
 
- .titulo-secundario--secciones-home-page {
+ .titulo-secciones {
 
      font-family: "Merriweather", sans-serif;
      font-weight: 700;
      font-size: 1.5rem;
      text-align: center;
      color: black;
+     padding-top: 2rem;
+     padding-bottom: 1.5rem;
  }
 
+ /*
  .titulo-secundario--secciones-pages {
 
      font-family: "Merriweather", sans-serif;
@@ -94,6 +97,7 @@ font-family: 'Merriweather', serif; */
      text-align: center;
      color: black;
  }
+*/
 
  .titulo-aside{
     font-family: "Merriweather", sans-serif;
@@ -113,6 +117,7 @@ font-family: 'Merriweather', serif; */
     padding-top: 0.5rem;
  }
 
+ /*
 .etiqueta-nombres--lugares-comidas {
    
     font-family: "Merriweather", sans-serif;
@@ -121,7 +126,7 @@ font-family: 'Merriweather', serif; */
     text-align: center;
     color: white;
 }
-
+*/
 .parrafo {
  
     font-family: "Lato", sans serif;
@@ -161,6 +166,8 @@ border: 2px solid black
 }
 
 
+/*--HEADER--*/
+
 /*--Portada--*/
 
 
@@ -178,10 +185,7 @@ border: 2px solid black
     display: flex;
     flex-direction: column;
     
-
-
 }
-
 
 .portada-suscribite {
     display: flex;
@@ -189,7 +193,7 @@ border: 2px solid black
     margin-right: 1rem;
 }
 
-.titulo-newsletter {
+.portada-titulo-newsletter {
     padding-top: 0.5rem;
 }
 
@@ -204,17 +208,14 @@ border: 2px solid black
     gap:1rem;
 }
 
+
+/*--MAIN--*/
+
+
    /*--Sección "Historia"--*/
 
 
-
-.titulo-secundario--secciones-home-page {
- 
- padding-bottom: 0.6rem;
- padding-top: 2rem;
-}
-  
-.parrafo-historia {
+.parrafo {
     margin-left: 0.8rem;
     margin-right: 0.8rem;
     text-align:justify center;
@@ -222,7 +223,6 @@ border: 2px solid black
 }
 
 /*--Mapa de Sección "Historia"--*/
-
 
 
 .contenedor-mapa {
@@ -246,7 +246,7 @@ border: 2px solid black
     justify-content: space-around;   
 }
 
-.caja-aside--festividades {
+.contenedor-aside-festividades {
     width: 300px;
     height: 400px;
     overflow: auto;
@@ -258,7 +258,7 @@ border: 2px solid black
 }
 
 
-.titulo-aside--h3-festivo {
+.titulo-aside {
 
 padding-left: 1.5rem;
 padding-right: 1.5rem;
@@ -275,7 +275,7 @@ padding-right: 1.5rem;
     justify-content: space-around; 
 }
 
-.caja-aside--curiosidades {
+.contenedor-aside-curiosidades {
     width: 300px;
     height: 400px;
     overflow: auto;
@@ -286,23 +286,25 @@ padding-right: 1.5rem;
     position: relative;
 }
 
-.titulo-aside--h3-curiosidades {
+.titulo-aside {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
 
+
 /*--Sección "Lugares para Descubrir--*/
 
-.parrafo-intro-seccion--visitas {
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-    text-align:justify center;
-    
+/*
+.carrusel {
+
 }
 
 /*-- Sección "Actividades--*/
 
-.imagen-experiencias--nilo {
+
+/*Imagenes - que se modificarán como tarjetas posicionadas para ahorrar codigo y que quede mas prolijo*/
+
+.imagen-nilo {
     width: 200px;
     height: 150px;
     margin-left: 15px;
@@ -310,13 +312,13 @@ padding-right: 1.5rem;
  
 }
 
-.nombre-actividad--nilo{
+.nombre-nilo{
     font-size: 1rem;
     padding-left: 2rem;
     padding-top: 0.5rem;
 }
 
-.imagen-experiencias--camello {
+.imagen-camello {
     width: 230px;
     height: 150px;
     position:relative;
@@ -324,7 +326,7 @@ padding-right: 1.5rem;
     bottom: 20px;
 }
 
-.nombre-actividad--camello {
+.nombre-camello {
    font-size: 1rem;
    padding-left: 15rem;
    position: relative;
@@ -332,7 +334,7 @@ padding-right: 1.5rem;
    
 }
 
-.imagen-experiencias--danza {
+.imagen-danza {
     width: 200px;
     height: 150px;
     margin-left: 15px;
@@ -340,25 +342,20 @@ padding-right: 1.5rem;
     bottom: 60px;
 }
 
-.nombre-actividad--danza{
+.nombre-danza{
     font-size: 1rem;
     margin-left: 50px;
     position: relative;
     bottom: 50px;
 }
 
+
 /*-- Sección "Gastronomía"--*/
 
-.titulo-secundario--secciones-home-page-gastronomia {
-    font-family: "Merriweather", sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-align: center;
-    color: black;
-    padding-bottom: 0.6rem;
-   }
 
-.imagen-sec-gastronomia {
+/*-- Imagen - Gastronomía--*/
+
+.imagen-gastronomia {
     background-image: url(../img/comida.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -371,34 +368,37 @@ padding-right: 1.5rem;
 
 }
 
-.ul-nombres-comidas {
+
+.ul-comidas {
     text-align: start;
     justify-content: center;
     padding-left: 3rem;
     color: white;
-    
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+   
 }
+
 
 /*-- Sección "Compras"--*/
 
-.imagen-sec-compras {
+
+/*-- Imagen - Compras- la imagen se va a cambiar por una que contraste mejor con el texto-*/
+
+.imagen-compras {
     background-image: url(../img/bazar.jpg);
     background-repeat: no-repeat;
-    
     background-size: cover;
-    
     width: 100vw; 
     margin-top: 1.5rem;
     
-
 }
 
-.titulo-secundario--secciones-home-page-compras {
+.titulo-seccion-compras {
 
-    font-family: "Merriweather", sans-serif;
-    font-weight: 900;
-    font-size: 1.5rem;
     text-align: center;
+    font-weight: 900;
     color: white;
     padding-top: 1.5rem;
 
@@ -416,7 +416,7 @@ padding-right: 1.5rem;
 }
 
 .link-compras {
-    color: black;
+    color:white;
     font-weight: 900;
     font-size: 1.5rem;
     
@@ -437,7 +437,7 @@ padding-right: 1.5rem;
 
 .footer-sec{
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .footer-links {
@@ -446,7 +446,7 @@ padding-right: 1.5rem;
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
 }
 
 /*--Footer-Contacto--*/
@@ -492,12 +492,15 @@ padding-right: 1.5rem;
 
 @media  (min-width: 768px) {
 
-.portada {
-    
-    width: 100vw;
-    height: 65vh;
-    
+/*--HEADER--*/
 
+/*--Portada--*/
+
+
+.portada {
+   
+    width: 100vw;
+    height: 50vw;
 }
 
 .portada-suscribite {
@@ -508,31 +511,30 @@ padding-right: 1.5rem;
     padding-top: 1rem;
 }
 
-.titulo-newsletter {
+.portada-titulo-newsletter {
     font-size: 1.5rem;
     justify-content: center;
     padding-top: 2rem;
 }
 
-.titulo-principal-h1 {
+.portada-titulo-h1 {
     font-size: 5rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
-.subtitulo-titulo-principal {
+.portada-subtitulo-h1 {
     font-size: 1.5rem;
 }
 
 
 
-  
 
 .nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+   
    
 }
 
@@ -540,9 +542,12 @@ a {
     font-size: 1.3rem;
 }
 
+/*--MAIN */
+
+
 /*--Sección - "Historia" */
 
-.titulo-secundario--secciones-home-page {
+.titulo-secciones {
  
     padding-top: 5rem;
    }
@@ -636,7 +641,7 @@ a {
 
 }
 
-.imagen-sec-gastronomia {
+.imagen-gastronomia {
 display: grid;
 width: 60vw;
 height: 250px; 
@@ -644,7 +649,7 @@ height: 250px;
 
 }
 
-.ul-nombres-comidas {
+.ul-comidas {
     text-align: start;
     justify-content: start;
     color: white;
@@ -666,9 +671,9 @@ height: 250px;
 
 
 
-
-
 @media  (min-width: 1200px) {
+
+/*--HEADER--" */
 
 /*--Portada--" */
 
@@ -687,19 +692,19 @@ height: 250px;
       
 }
 
-.titulo-newsletter {
+.portada-titulo-newsletter {
     font-size: 2rem;
     padding-top: 5rem;
     
 }
 
-.titulo-principal--h1 {
+.portada-titulo-h1 {
     font-size: 8rem;
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
 
-.subtitulo-titulo-principal {
+.portada-subtitulo-h1 {
     font-size: 2rem;
 }
 
@@ -715,9 +720,11 @@ a {
  
 }
 
+/*--MAIN--" */
+
 /*--Sección - "Historia" */
 
-.titulo-secundario--secciones-home-page {
+.titulo-secciones {
  
     font-size: 2rem;
    }
@@ -726,14 +733,14 @@ a {
 .grilla-desktop-historia {
     display: grid;
     grid-template-columns: 60% 40%;
-    justify-content: space-around;
+    grid-template-rows: 1fr;
     padding-left: 1rem;
     padding-right: 1rem;
     gap:1rem;
 }
 
 .contenedor-mapa {
-    height: 100%;
+   height: 100%;
    padding-bottom: 3rem;
      
    
@@ -742,7 +749,7 @@ a {
 
 /*--Aside--" */
 
-.titulo-aside--h3-festivo {
+.titulo-aside {
 
    display: none;
     }
@@ -754,13 +761,13 @@ a {
     justify-content: end;   
 }
 
-.caja-aside--festividades {
+.contenedor-aside-festividades {
     width: 300px;
     height: 750px;
   
 }
 
-.titulo-aside--h3-curiosidades {
+.titulo-aside {
     display: none;
  }
  
@@ -772,7 +779,7 @@ a {
     padding-right: 1rem;
 }
 
-.caja-aside--curiosidades {
+.contenedor-aside-curiosidades {
     width: 300px;
     height: 1100px;
  
@@ -805,7 +812,7 @@ a {
 
 }
 
-.imagen-sec-gastronomia {
+.imagen-gastronomia {
 display: grid;
 width: 40vw;
 height: 250px; 
@@ -813,14 +820,14 @@ height: 250px;
 
 }
 
-.ul-nombres-comidas {
+.ul-comidas {
     text-align: start;
     justify-content: start;
     color: white;
     
 }
 
-/*--Footer--" */
+/*--FOOTER--" */
 
 .enlaces-contacto {
     display: flex;
@@ -945,6 +952,9 @@ height: 250px;
 }
 
 
+
+
+
  }
 
 
@@ -994,7 +1004,7 @@ height: 250px;
         font-size: 1.3rem;
     }
 
-
+   
 }
 
     /*--MAIN-- "Sección - Lugares para Descubrir" */
@@ -1013,7 +1023,9 @@ height: 250px;
       }
 
 .tarjeta-lugares {
+    
     width: 300px;
+    margin-right: 1rem;
     
      
     }
@@ -1117,9 +1129,15 @@ a {
        display: flex;
        flex-direction: row;
        justify-content: center;
-       gap:100px;
+       
      }
      
+     .tarjeta-lugares {
+    
+        width: 350px;
+         margin-right: 1rem;
+         margin-left: 1rem;
+        }
 }
          
     
@@ -1136,7 +1154,10 @@ a {
 
     @media (min-width: 400px) {
 
-        .portada-actividades {
+
+     /*-- HEADER -- "Portada" --*/
+
+        .portada-seccion-actividades {
             background-image: url("../img/portada2.jpg");
             background-repeat: no-repeat;
             background-position: top;
@@ -1148,33 +1169,53 @@ a {
             flex-direction: column;
             
         
-        
         }
 
+
         .portada-suscribite-actividades {
-            padding-top: 0.5rem;
+          
             display: flex;
-            flex-direction: row-reverse;
+            align-self: flex-end;
             padding-right: 1rem;
         }
 
+
 .nav {
-    padding-bottom: 1rem;
+     
+        padding-top: 1.5rem;
+        
+    }
+    
+   
+  /*-- MAIN -- "Experiencias Imprescindibles" --*/
+
+  .parrafo-secc-activiades {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0-5rem;
+    text-align: justify center;
+}
+
+
+.titulo-actividades {
+    font-size: 1.2rem;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .imagen-actividades {
    width: 100%;
    object-fit: cover;
-   padding: 0.5rem;
+   padding: 1rem;
+   max-height: 300px;
 }
 
-.parrafo-secc-ctiviades {
-    font-family: "lato", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    text-align: center;
-}
+
+
 
     }
