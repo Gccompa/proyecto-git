@@ -416,7 +416,7 @@ padding-right: 1.5rem;
 }
 
 .link-compras {
-    color: white;
+    color: black;
     font-weight: 900;
     font-size: 1.5rem;
     
@@ -493,7 +493,7 @@ padding-right: 1.5rem;
 @media  (min-width: 768px) {
 
 .portada {
-    object-fit: contain;
+    
     width: 100vw;
     height: 65vh;
     
@@ -838,6 +838,7 @@ height: 250px;
  
  /*--Mobile Fisrt-- "VISITAR" */
 
+ 
  @media (min-width: 375px) {
 
 .portada-seccion-visitar {
@@ -863,7 +864,7 @@ height: 250px;
 .titulo-visitar {
     font-family: "Merriweather", sans-serif;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 900;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
 
@@ -885,7 +886,7 @@ height: 250px;
 
 
 .nav {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 
@@ -902,6 +903,7 @@ height: 250px;
     margin-left: 2rem;
     margin-right: 2rem;  
     padding: 1rem;
+    padding-bottom: 1.5rem;
     }
     
 .tarjeta-body {
@@ -921,14 +923,21 @@ height: 250px;
 }
 
 
- /*-- .parrafo-tarjeta-lugares {
+ .parrafo-tarjeta-lugares {
 
-/*-- .titulo-tarjeta-lugares
- {
+ font-family: "lato", sans-serif;
+ padding-top: 0.5rem;
+ text-align: justify;
 
 }  
 
---*/
+.titulo-tarjeta-lugares {
+    font-family:"Merriweather", sans-serif; 
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
 
  }
 
@@ -940,12 +949,46 @@ height: 250px;
 @media  (min-width: 768px) {
 
 
+   
+
+    .portada-seccion-visitar{
+    
+        width: 100vw;
+        height: 65vh;
+        
+    
+    }
+    
+    .portada-suscribite {
+        display: flex;
+        align-self: flex-end;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+    
+    .titulo-newsletter {
+        font-size: 1.5rem;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    
+    .titulo-principal--h1 {
+        font-size: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .subtitulo-titulo-principal {
+        font-size: 1.5rem;
+    }
+    
 
     .parrafo-intro-lugares {  
        
-        margin-left: 2rem;
-        margin-right: 2rem;
-       text-align: center;
+       margin-left: 2rem;
+       margin-right: 2rem;
+       text-align: justify center;
        font-family: "lato", sans-serif;
        font-weight: 400;
        
@@ -965,41 +1008,7 @@ height: 250px;
      
     }
 
-    /*
-
-
-.contenedor {
-   display: flex;
-    flex-direction: row;
-    gap:1rem;
-    padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-bottom: 1rem;
-}
-
-.contenedor {
-    display: flex;
-    flex-direction: row;
-    gap:1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-}
-
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    gap:1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-}
-
-
-footer
-
-*/
-
+ 
 
 
 }
@@ -1021,37 +1030,56 @@ footer
        
       }
 
-      .contenedor-piramides-simboel-edfu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-         padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 1rem;
-      }
-
-
-      /*
-     .contenedor-alejandria-luxor {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-
-     }
-*/
-     .contenedor-cairo-filoe-sherik {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-         padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 1rem;
-
-     }
+     
          
         }
+
+    }
+
+
+    /*--Mobile Fisrt-- "ACTIVIDADES" */
+
+    @media (min-width: 375px) {
+
+        .portada-actividades {
+            background-image: url("../img/portada2.jpg");
+            background-repeat: no-repeat;
+            background-position: top;
+            background-attachment: fixed;
+            background-size: contain;
+            width: 100vw;
+            padding-bottom: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            
+        
+        
+        }
+
+        .portada-suscribite-actividades {
+            padding-top: 0.5rem;
+            display: flex;
+            flex-direction: row-reverse;
+            padding-right: 1rem;
+        }
+
+.nav {
+    padding-bottom: 1rem;
+}
+
+.imagen-actividades {
+   width: 100%;
+   object-fit: cover;
+   padding: 0.5rem;
+}
+
+.parrafo-secc-ctiviades {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+}
 
     }
