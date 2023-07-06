@@ -558,6 +558,7 @@ a {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: o.5rem;
+
 }
 
 .contenedor-mapa {
@@ -566,9 +567,10 @@ a {
 }
 
 .contenedor-mapa-iframe {
-    padding-right: 0.5rem;
+    padding-right: 1rem;
     padding-left: 0.5rem;
     padding-top: 2.5rem;
+    
     
    
 }
@@ -606,6 +608,7 @@ a {
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding-top: 1rem;
+    padding-right: 1.5rem;
     justify-content: space-around;
    
     
@@ -637,7 +640,10 @@ a {
 .grilla-gastronomia {
     display: grid;
     grid-template-columns: 40% 60%;
+    align-items: center;
     padding-top: 1rem;
+    padding-right: 1rem;
+   
 
 }
 
@@ -662,6 +668,7 @@ height: 250px;
     display: grid;
     text-align: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -689,7 +696,7 @@ height: 250px;
     .portada-suscribite {
     
     font-size: 2rem;
-      
+    
 }
 
 .portada-titulo-newsletter {
@@ -781,7 +788,7 @@ a {
 
 .contenedor-aside-curiosidades {
     width: 300px;
-    height: 1100px;
+    height: 1120px;
  
 }
 
@@ -807,13 +814,14 @@ a {
     justify-items: center;
     align-items: center;
     padding-top: 1rem;
-    padding-left: 2.5rem;
+    padding-left: 1rem;
 
 
 }
 
 .imagen-gastronomia {
 display: grid;
+align-items: center;
 width: 40vw;
 height: 250px; 
    
@@ -821,9 +829,10 @@ height: 250px;
 }
 
 .ul-comidas {
-    text-align: start;
+    
     justify-content: start;
     color: white;
+    padding-left: 5rem;
     
 }
 
