@@ -853,7 +853,7 @@ font-family: 'Merriweather', serif; */
      }
 
 
-     /*--Mobile Fisrt-- "VISITAR" */
+     /*--Mobile Fisrt-- "VISITAR"
 
 
      @media (min-width: 400px) {
@@ -922,22 +922,20 @@ font-family: 'Merriweather', serif; */
 
          .tarjeta-lugares {
              width: 100%;
-             display: flex;
-             flex-direction: column;
-             margin-left: 2rem;
-             margin-right: 2rem;
+             display: block;
              padding: 1rem;
-             padding-bottom: 1.5rem;
+             padding-bottom: 1.5rem; 
 
          }
 
+        
          .tarjeta-body {
              display: flex;
              flex-direction: column;
-             align-items: center;
+             align-items: center; 
 
 
-         }
+         } 
 
          .imagen {
 
@@ -966,7 +964,7 @@ font-family: 'Merriweather', serif; */
 
 
 
-     }
+     
 
 
 
@@ -975,7 +973,7 @@ font-family: 'Merriweather', serif; */
 
 
 
-     @media (min-width: 768px) {
+     @media (min-width: 768px) and (max-width: 1023px){
 
 
          /*-- HEADER -- "Portada" --*/
@@ -1034,29 +1032,18 @@ font-family: 'Merriweather', serif; */
      }
 
      .tarjeta-lugares {
-
-         width: 350px;
-         margin-right: 1rem;
-
-
-
-     }
-
-     .grilla-contenedor {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: repeat (4 fr 700px);
+        display: inline-block;
+        margin-left: 1.5rem;
+        width: 350px;
+       
 
 
      }
 
-     .flex-contenedor-tarjeta {
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-
-     }
- }
+ 
+    }
+ 
+ 
 
  /*--Desktop -- Sección "VISITAR" */
 
@@ -1135,22 +1122,17 @@ font-family: 'Merriweather', serif; */
          display: grid;
          grid-template-columns: 1fr 1fr 1fr;
          grid-template-rows: repeat(3 fr 700px);
-         justify-items: center;
+        justify-items: center;
+        
      }
 
-     .flex-contenedor-tarjeta {
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-
+     .contenedor-tarjeta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
      }
+    
 
-     .tarjeta-lugares {
-
-         width: 350px;
-         margin-right: 1rem;
-         margin-left: 1rem;
-     }
  }
 
 
@@ -1483,5 +1465,6 @@ font-family: 'Merriweather', serif; */
 .nav-gastronomia {
 background-color: rgb(172, 169, 169);
 border-bottom: solid 1px;
+
 
 }
