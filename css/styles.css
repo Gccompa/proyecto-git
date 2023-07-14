@@ -780,12 +780,12 @@ font-family: 'Merriweather', serif; */
          }
 
 
-         .aside-curiosidades {
+       /*  .aside-curiosidades {
              display: flex;
              flex-direction: row;
              justify-content: end;
              padding-right: 1rem;
-         }
+         } */
 
          .contenedor-aside-curiosidades {
              width: 300px;
