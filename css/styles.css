@@ -60,7 +60,7 @@ font-family: 'Merriweather', serif; */
      }
 
 
-     .titulo-aside {
+     .aside-titulo {
          font-family: "Merriweather", sans-serif;
          font-weight: 700;
          font-size: 1.5rem;
@@ -68,7 +68,7 @@ font-family: 'Merriweather', serif; */
 
      }
 
-     .subtitulo-aside {
+     .aside-subtitulo {
          font-family: "Merriweather", sans-serif;
          font-weight: 900;
          font-size: 1.3rem;
@@ -202,19 +202,12 @@ font-family: 'Merriweather', serif; */
      }
 
 
-
      /*--MAIN--*/
-
-
-     /*--Sección "Historia"--*/
-
-
-
 
      /*--Asides--*/
 
 
-     .caja-aside {
+     .aside-caja {
          width: 300px;
          height: 400px;
          overflow: auto;
@@ -334,7 +327,7 @@ font-family: 'Merriweather', serif; */
 
      /*-- Imagen - Compras- la imagen se va a cambiar por una que contraste mejor con el texto-*/
 
-     .imagen-compras {
+     .compras-imagen {
          background-image: url(../img/bazar.jpg);
          background-repeat: no-repeat;
          background-size: cover;
@@ -343,7 +336,7 @@ font-family: 'Merriweather', serif; */
 
      }
 
-     .titulo-seccion-compras {
+     .compras-titulo {
 
          text-align: center;
          font-weight: 900;
@@ -352,7 +345,7 @@ font-family: 'Merriweather', serif; */
 
      }
 
-     .parrafo-compras {
+     .compras-parrafo {
 
          text-align: justify center;
          padding-left: 1rem;
@@ -362,7 +355,7 @@ font-family: 'Merriweather', serif; */
 
      }
 
-     .link-compras {
+     .compras-link {
          color: black;
          font-weight: 900;
          font-size: 1.2rem;
@@ -480,7 +473,7 @@ font-family: 'Merriweather', serif; */
      }
 
 
-     .contenedor-seccion-historia {
+     .contenedor-historia {
          display: grid;
          grid-template-columns: 2fr 1fr;
        
@@ -504,12 +497,12 @@ font-family: 'Merriweather', serif; */
      /*--Sección - "Aside" */
 
      
- .titulo-aside {
+ .aside-titulo {
 
     display: none;
 }
 
-     .caja-aside {
+     .aside-caja {
          width: 200px;
          height: 700px;
 
@@ -537,7 +530,6 @@ font-family: 'Merriweather', serif; */
          height: 200px;
          width: 100%;
      }
-
 
 
      /*--Sección - "Actividades" */
@@ -569,10 +561,7 @@ font-family: 'Merriweather', serif; */
        
         width: 50vw; 
 
-
      }
-
-
 
      .ul-comidas {
          text-align: start;
@@ -583,7 +572,7 @@ font-family: 'Merriweather', serif; */
 
      /*--Sección - "Compras" */
 
-     .parrafo-compras {
+     .compras-parrafo {
          display: grid;
          text-align: center;
          padding-top: 1rem;
@@ -639,7 +628,7 @@ font-family: 'Merriweather', serif; */
  }
 
  
- .contenedor-seccion-historia {
+ .contenedor-historia {
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
@@ -652,17 +641,16 @@ font-family: 'Merriweather', serif; */
 
 }
 
-
  /*--Aside--" */
 
 
- .caja-aside {
+ .aside-caja {
     width: 350px;
     height: 650px;
 
 }
 
-.caja-aside-curiosidades {
+.aside-caja-curiosidades {
     height: 960px;
 }
 
@@ -700,9 +688,7 @@ font-family: 'Merriweather', serif; */
      gap: 100px;
      align-items: center;
 
-
  }
-
 
   }
 
@@ -710,20 +696,13 @@ font-family: 'Merriweather', serif; */
  /*--Mobile Fisrt-- "VISITAR"--*/
 
 
-
-
  /*--MAIN-- "Sección - Lugares para Descubrir" */
-
-
 
 
  /*--Tajetas - Imagenes "Lugares para Descubrir" */
 
 
- /*--Tajeta - Pirámides de Giza */
-
-
- .tarjeta-lugares {
+ .tarjeta {
      width: 100%;
      display: block;
      padding: 1rem;
@@ -737,9 +716,7 @@ font-family: 'Merriweather', serif; */
      flex-direction: column;
      align-items: center;
 
-
  }
-
 
 
  .tarjeta-texto {
@@ -758,9 +735,7 @@ font-family: 'Merriweather', serif; */
  }
 
 
-
-
- .imagen {
+ .tarjeta-imagen {
 
     width: 100%;
     height: 200px;
@@ -769,38 +744,22 @@ font-family: 'Merriweather', serif; */
 
 }
 
-
-
-
-
  /*--Tablet -- Sección "VISITAR" */
 
-
-
  @media (min-width: 768px) and (max-width: 1023px) {
-
-
-
-
 
 
      /*--MAIN-- "Sección - Lugares para Descubrir" */
 
 
-
-
-     .tarjeta-lugares {
+     .tarjeta {
          display: inline-block;
          margin-left: 1.5rem;
          width: 350px;
 
-
-
      }
 
-
  }
-
 
 
  /*--Desktop -- Sección "VISITAR" */
@@ -819,15 +778,9 @@ font-family: 'Merriweather', serif; */
          grid-template-rows: repeat(3 fr 700px);
          justify-items: center;
 
-     }
-
-    
+     }  
 
  }
-
-
-
-
 
  /*--Mobile Fisrt-- "ACTIVIDADES" */
 
@@ -835,11 +788,9 @@ font-family: 'Merriweather', serif; */
  @media (min-width: 375px) {
 
 
-
      /*-- MAIN -- "Experiencias Imprescindibles" --*/
 
     
-
      .subtitulo-seccion {
          font-family: "Merriweather", sans-serif;
          font-weight: 700;
@@ -936,8 +887,6 @@ font-family: 'Merriweather', serif; */
      }
 
  }
-
-
 
 
  /*--Mobile First -- Sección "GASTRONOMÍA" */
