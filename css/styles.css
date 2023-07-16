@@ -716,17 +716,6 @@ font-family: 'Merriweather', serif; */
 
 
 
- .parrafo-intro-lugares {
-
-     font-family: "lato", sans-serif;
-     font-weight: 400;
-     font-size: 1rem;
-     text-align: justify center;
-     padding-left: 0.8rem;
-     padding-right: 0.8rem;
-     padding-bottom: 1rem;
-     color: black;
- }
 
  /*--Tajetas - Imagenes "Lugares para Descubrir" */
 
@@ -751,17 +740,9 @@ font-family: 'Merriweather', serif; */
 
  }
 
- .imagen {
-
-     width: 100%;
-     height: 200px;
-     padding-top: 1rem;
-     padding-bottom: 0.5rem;
-
- }
 
 
- .parrafo-tarjeta-lugares {
+ .tarjeta-texto {
 
      font-family: "lato", sans-serif;
      padding-top: 0.5rem;
@@ -769,7 +750,7 @@ font-family: 'Merriweather', serif; */
 
  }
 
- .titulo-tarjeta-lugares {
+ .tarjeta-titulo {
      font-family: "Merriweather", sans-serif;
      font-weight: 900;
      padding-bottom: 0.5rem;
@@ -778,6 +759,15 @@ font-family: 'Merriweather', serif; */
 
 
 
+
+ .imagen {
+
+    width: 100%;
+    height: 200px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+}
 
 
 
@@ -790,7 +780,6 @@ font-family: 'Merriweather', serif; */
  @media (min-width: 768px) and (max-width: 1023px) {
 
 
-     /*-- HEADER -- "Portada" --*/
 
 
 
@@ -799,16 +788,6 @@ font-family: 'Merriweather', serif; */
 
 
 
-     .parrafo-intro-lugares {
-
-         margin-left: 2rem;
-         margin-right: 2rem;
-         text-align: justify center;
-         font-family: "lato", sans-serif;
-         font-weight: 400;
-
-
-     }
 
      .tarjeta-lugares {
          display: inline-block;
@@ -831,63 +810,10 @@ font-family: 'Merriweather', serif; */
  @media (min-width: 1200px) {
 
 
-
-     /*-- HEADER -- "Portada" --*/
-
-     .portada-seccion-visitar {
-
-         width: 100vw;
-         height: 60vw;
-         padding-bottom: 0.5rem;
-
-     }
-
-     .portada-suscribite-visitar {
-
-         font-size: 2rem;
-
-     }
-
-     .titulo-newsletter {
-
-         font-size: 2rem;
-         padding-top: 5rem;
-
-     }
-
-     .titulo-principal-h1 {
-
-         font-size: 8rem;
-         padding-top: 4rem;
-         padding-bottom: 2rem;
-     }
-
-     .subtitulo-titulo-principal {
-         font-size: 2rem;
-     }
-
-
-
-
      /*--MAIN-- "Sección - Lugares para Descubrir" */
 
 
-     .titulo-visitar {
-
-         padding-top: 3rem;
-         font-size: 2.5rem;
-
-     }
-
-     .parrafo-intro-lugares {
-
-         margin-left: 5rem;
-         margin-right: 5rem;
-         text-align: center;
-
-     }
-
-     .grilla-contenedor {
+     .grilla-contenedor-visitar {
          display: grid;
          grid-template-columns: 1fr 1fr 1fr;
          grid-template-rows: repeat(3 fr 700px);
@@ -895,20 +821,9 @@ font-family: 'Merriweather', serif; */
 
      }
 
-     .contenedor-tarjeta {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         justify-items: center;
-     }
-
+    
 
  }
-
-
-
-
-
-
 
 
 
@@ -921,32 +836,9 @@ font-family: 'Merriweather', serif; */
 
 
 
-
      /*-- MAIN -- "Experiencias Imprescindibles" --*/
 
-     .parrafo-secc-activiades {
-         font-family: "lato", sans-serif;
-         font-weight: 400;
-         font-size: 1rem;
-         padding-right: 1rem;
-         padding-left: 1rem;
-         padding-top: 0-5rem;
-         text-align: justify center;
-     }
-
-
-     /*-- MAIN -- "Experiencias Imprescindibles" --*/
-
-
-     .parrafo {
-         font-family: "lato", sans-serif;
-         font-weight: 400;
-         font-size: 1rem;
-         padding-left: 0.8rem;
-         padding-right: 0.8rem;
-         text-align: justify center;
-         padding-bottom: 1rem;
-     }
+    
 
      .subtitulo-seccion {
          font-family: "Merriweather", sans-serif;
@@ -955,6 +847,7 @@ font-family: 'Merriweather', serif; */
          text-align: center;
          color: black;
      }
+
 
      .imagen-actividades {
          width: 100%;
@@ -973,34 +866,9 @@ font-family: 'Merriweather', serif; */
  @media (min-width: 768px) {
 
 
-     /*-- HEADER -- "Portada" --*/
-
-
-     .portada-actividades {
-
-         width: 100vw;
-         height: 65vh;
-
-     }
-
-     .portada-suscribite-actividades {
-
-         font-size: 1.5rem;
-         padding-right: 1rem;
-     }
-
+  
 
      /*-- MAIN -- "Experiencias Imprescindibles" --*/
-
-     .titulo-seccion {
-         font-size: 2rem;
-         padding-top: 2rem;
-     }
-
-     .parrafo {
-         padding-left: 2rem;
-         padding-right: 2rem;
-     }
 
      .subtitulo-seccion {
          font-size: 1.5rem;
@@ -1008,17 +876,18 @@ font-family: 'Merriweather', serif; */
      }
 
      .imagen-actividades {
-         width: 100vw;
-         height: 50vw;
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         padding-bottom: 1rem;
+        max-height: 400px;  
+         object-fit: cover;
+         padding-bottom: 1.5rem;
          padding-left: 1.5rem;
          padding-right: 1.5rem;
 
      }
 
+     .parrafo {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+     }
  }
 
 
@@ -1029,32 +898,8 @@ font-family: 'Merriweather', serif; */
  @media (min-width: 1200px) {
 
 
-     /*-- HEADER -- "Portada" --*/
-
-
-     .portada-actividades {
-
-         width: 100vw;
-         height: 70vw;
-
-     }
-
-
-     .portada-suscribite-actividades {
-
-         font-size: 2rem;
-         padding-right: 2rem;
-
-     }
-
 
      /*-- MAIN -- "Experiencias Imprescindibles" --*/
-
-     .titulo-seccion {
-         font-size: 3rem;
-         padding-top: 3rem;
-
-     }
 
      .parrafo {
          padding-left: 2rem;
@@ -1072,14 +917,7 @@ font-family: 'Merriweather', serif; */
      .imagen-actividades {
          width: 700px;
          height: 450px;
-         /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; */
-
+      
      }
 
      .contenedor {
@@ -1089,6 +927,7 @@ font-family: 'Merriweather', serif; */
          align-items: center;
      }
 
+     
      .contenedor-camello {
          display: flex;
          flex-direction: row-reverse;
@@ -1104,5 +943,10 @@ font-family: 'Merriweather', serif; */
  /*--Mobile First -- Sección "GASTRONOMÍA" */
 
 
+.imagen-fondo {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 
- /*--HEADER --  "Portada" */
+}
