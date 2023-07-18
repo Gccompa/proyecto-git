@@ -1,903 +1,567 @@
- /*--Reseteo de Css--*/
-
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
-
- ul,
- ol {
-     list-style: none;
- }
-
- nav ul li {
-     display: inline-block
- }
-
- /*--Etiquetas a--*/
-
- a {
-     text-decoration: none;
-     font-family: "late";
-     font-weight: 700;
-     color: black;
-
- }
-
- a:active {
-     color: blue
- }
-
-
-
- /*--Fuentes utilizadas en el proyecto--
-
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif; */
-
-
-
- /*--Mobile Fisrt--Index "HOME PAGE" */
-
-/* @media (min-width: 375px) {
-
-
-
-     /*--Títulos / Párrafos / Subtítulos Generales que se irán modificando-- */
-
-
-
-     .titulo-secciones {
-
-         font-family: "Merriweather", sans-serif;
-         font-weight: 700;
-         font-size: 1.3rem;
-         text-align: center;
-         color: black;
-         padding-top: 3rem;
-         padding-bottom: 1.5rem;
-     }
-
-
-     .aside-titulo {
-         font-family: "Merriweather", sans-serif;
-         font-weight: 700;
-         font-size: 1.5rem;
-         text-align: center;
-
-     }
-
-     .aside-subtitulo {
-         font-family: "Merriweather", sans-serif;
-         font-weight: 900;
-         font-size: 1.3rem;
-         text-decoration-line: underline;
-         text-align: center;
-         padding-bottom: 0.5rem;
-         padding-top: 0.5rem;
-     }
-
-
-     .parrafo {
-
-         font-family: "Lato", sans serif;
-         font-weight: 400;
-         font-size: 1rem;
-         margin-left: 0.8rem;
-         margin-right: 0.8rem;
-         text-align: justify center;
-
-     }
-
-
-
-     /*--Botón Subscripción del Footer -- Botón Subscripción Hover*/
-
-     .btn {
-
-         text-decoration: none;
-         display: block;
-         width: fit-content;
-         border: 1px solid black;
-         padding: 0.5rem 0-5rem;
-         border-radius: 5px;
-         background-color: rgb(199, 198, 198);
-         font-size: 1rem;
-         font-weight: 700;
-
-     }
-
-     .btn:hover {
-
-         background-color: grey;
-
-     }
-
-
-     /*--Seudoclase Formulario--*/
-
-     input:focus {
-         border: 2px solid black
-     }
-
-
-
-     /*--Mapa--*/
-
-
-     .contenedor-mapa {
-         height: 150px;
-         width: 100%;
-         padding-bottom: 1.5rem;
-
-      
-     }
-
-     .contenedor-mapa-iframe {
-        width: 100%;
-        height: 100%;
-        
-     }
-
-
-
-     /*--HEADER--*/
-
-     /*--Portada--*/
-
-     /*--Imagen de fondo en Portada--*/
-
-
-     .portada-newsletter {
-         background-image: url(../img/portada2.jpg);
-         background-repeat: no-repeat;
-         background-size: cover;
-         height: 50vw;
-         width: 100vw;
-         display: inline-block;
-     }
-
-
-     .portada-newsletter-suscribite {
-         display: flex;
-         justify-content: end;
-         margin-right: 1.2rem;
-         font-size: 1rem;
-         color: white;
-
-
-     }
-
-     .portada-newsletter-titulo {
-         padding-top: 1.3rem;
-         text-align: center;
-         font-size: 0.9rem;
-         color: white;
-     }
-
-     .portada-newsletter-h1 {
-
-         font-family: "Merriweather", sans-serif;
-         font-weight: 900;
-         font-size: 2.5rem;
-         text-align: center;
-         color: white;
-
-     }
-
-     .portada-newsletter-subtitulo-h1 {
-         padding-top: 0.5rem;
-         font-size: 1rem;
-         padding-left: 3rem;
-         font-family: "Lato", sans serif;
-         font-weight: 700;
-         color: white
-     }
-
-
-     /*--Barra de Navegación--*/
-
-     .nav-bootstrap {
-         background-color: rgb(230, 229, 229);
-
-     }
-
-
-     /*--MAIN--*/
-
-     /*--Asides--*/
-
-
-     .aside-caja {
-         width: 300px;
-         height: 400px;
-         overflow: auto;
-         padding: 1.5rem;
-         margin: 1rem;
-         border: solid 1px;
-         background-color: rgb(160, 207, 219);
-         position: relative;
-     }
-
-
-     .aside-festividades {
-         display: flex;
-         flex-direction: row;
-         align-items: center;
-         justify-content: space-around;
-     }
-
-
-     .aside-curiosidades {
-         display: flex;
-         flex-direction: row-reverse;
-         align-items: center;
-         padding-top: 2rem;
-         justify-content: space-around;
-     }
-
-
-
-     /*--Sección "Lugares para Descubrir--*/
-
-
-
-     /*-- Sección "Actividades--*/
-
-
-
-     .imagen-nilo {
-         width: 200px;
-         height: 150px;
-         margin-left: 15px;
-         padding-top: 0.5rem;
-
-     }
-
-     .nombre-nilo {
-         font-size: 1rem;
-         padding-left: 2rem;
-         padding-top: 0.5rem;
-     }
-
-     .imagen-camello {
-         width: 230px;
-         height: 150px;
-         position: relative;
-         left: 130px;
-         bottom: 20px;
-     }
-
-     .nombre-camello {
-         font-size: 1rem;
-         padding-left: 14rem;
-         position: relative;
-         bottom: 10px;
-
-     }
-
-     .imagen-danza {
-         width: 200px;
-         height: 150px;
-         margin-left: 15px;
-         position: relative;
-         bottom: 60px;
-     }
-
-     .nombre-danza {
-         font-size: 1rem;
-         margin-left: 50px;
-         position: relative;
-         bottom: 50px;
-     }
-
-
-     /*-- Sección "Gastronomía"--*/
-
-
-     /*-- Imagen - Gastronomía--*/
-
-     .imagen-gastronomia {
-         background-image: url(../img/comida.jpg);
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: contain;
-         height: 200px;
-         width: 100vw;
-         padding-top: 0.5rem;
-         display: flex;
-         flex-direction: column;
-
-     }
-
-
-     .ul-comidas {
-         text-align: start;
-         justify-content: center;
-         padding-left: 3rem;
-         color: white;
-         font-family: "Merriweather", sans-serif;
-         font-weight: 700;
-         font-size: 1rem;
-
-     }
-
-
-     /*-- Sección "Compras"--*/
-
-
-     /*-- Imagen - Compras- la imagen se va a cambiar por una que contraste mejor con el texto-*/
-
-     .compras-imagen {
-         background-image: url(../img/bazar.jpg);
-         background-repeat: no-repeat;
-         background-size: cover;
-         width: 100vw;
-         margin-top: 1.5rem;
-
-     }
-
-     .compras-titulo {
-
-         text-align: center;
-         font-weight: 900;
-         color: white;
-         padding-top: 1rem;
-
-     }
-
-     .compras-parrafo {
-
-         text-align: justify center;
-         padding-left: 1rem;
-         padding-right: 1rem;
-         color: white;
-         font-weight: 700;
-
-     }
-
-     .compras-link {
-         color: black;
-         font-weight: 900;
-         font-size: 1.2rem;
-
-     }
-
-     /*--Footer--*/
-
-
-     .footer {
-         background-color: grey;
-         color: white;
-         padding-bottom: 2rem;
-         margin-top: 2rem;
-     }
-
-     /*--Footer-Links--*/
-
-
-     .footer-sec {
-         text-align: center;
-         padding-top: 2rem;
-     }
-
-     .footer-links {
-         font-weight: 400;
-         font-size: 1rem;
-         color: white;
-         display: flex;
-         justify-content: center;
-         padding-top: 0.3rem;
-     }
-
-     /*--Footer-Contacto--*/
-
-     .footer-contacto {
-         text-align: center;
-         padding-top: 1rem;
-     }
-
-     .footer-contacto-lista {
-         text-align: center;
-         padding: 0.5rem;
-
-     }
-
-     /*--Footer-Formulario--*/
-
-     .form-parrafo {
-         text-align: center;
-         font-weight: 700;
-         padding: 1rem;
-     }
-
-     .form-label {
-         display: flex;
-         justify-content: center;
-         gap: 1.5rem
-     }
-
-     .form-checkbox {
-         display: flex;
-         justify-content: center;
-         gap: 1rem;
-         padding-top: 0.5rem;
-
-     }
-
- 
-
- /*--Tablet -- Index "HOME PAGE" */
-
-
-
- @media (min-width: 768px) {
-
-     /*--HEADER--*/
-
-     /*--Portada 768px--*/
-
-     .portada-newsletter-suscribite {
-
-         margin-right: 3.1rem;
-         font-size: 1.5rem;
-
-     }
-
-     .portada-newsletter-titulo {
-         font-size: 1.8rem;
-         padding-top: 2rem;
-     }
-
-     .portada-newsletter-h1 {
-         font-size: 5rem;
-         padding-top: 2rem;
-
-     }
-
-     .portada-newsletter-subtitulo-h1 {
-         font-size: 1.8rem;
-         padding-left: 9rem;
-     }
-
-
-
-     /*--MAIN */
-
-
-     /*--Sección - "Historia" */
-
-     .titulo-secciones {
-
-         padding-top: 5rem;
-         font-size: 1.5rem;
-     }
-
-
-     .contenedor-historia {
-         display: grid;
-         grid-template-columns: 2fr 1fr;
-       
-
-     }
-
-     .contenedor-mapa {
-         height: 85%;
-         width: 350px;
-
-     }
-
-     .contenedor-mapa-iframe {
-         padding-right: 2rem;
-         padding-top: 2rem;
-         justify-content: center;
-
-
-     }
-
-     /*--Sección - "Aside" */
-
-     
- .aside-titulo {
-
-    display: none;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-     .aside-caja {
-         width: 200px;
-         height: 700px;
+ul,
+ol {
+  list-style: none;
+}
 
-     }
+nav ul li {
+  display: inline-block;
+}
 
+a {
+  text-decoration: none;
+  font-family: lato, sans-serif;
+  color: black;
+}
+a:active {
+  color: blue;
+}
 
-     .flex-aside-visitas {
-         display: flex;
-         justify-content: center;
-         align-items: start;
-     }
+.titulo-secciones {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  color: black;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
 
+.parrafo {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  text-align: justify center;
+}
 
-     /*--Sección - "Visitar" */
+.subtitulo-seccion {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  color: black;
+}
 
-     .carrusel {
+@media (min-width: 768px) {
+  .titulo-secciones {
+    padding-top: 5rem;
+    font-size: 1.5rem;
+  }
+  .subtitulo-seccion {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .titulo-secciones {
+    font-size: 2rem;
+  }
+  .subtitulo-seccion {
+    font-size: 2rem;
+    padding: 1rem;
+    padding-top: 3rem;
+  }
+}
+.portada-newsletter {
+  background-image: url(../img/portada2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+  width: 100vw;
+  display: inline-block;
+}
+.portada-newsletter-suscribite {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.4rem;
+  font-size: 0.8rem;
+  color: white;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+}
+.portada-newsletter-titulo {
+  padding-top: 1.3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+}
+.portada-newsletter-h1 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+}
+.portada-newsletter-subtitulo-h1 {
+  padding-top: 0.3rem;
+  font-size: 1rem;
+  padding-left: 3rem;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: white;
+}
 
-         width: 100%;
-         padding-left: 2rem;
-         padding-right: 2rem;
-
-     }
-
-     .carrusel-img {
-         height: 200px;
-         width: 100%;
-     }
-
-
-     /*--Sección - "Actividades" */
-
-
-     .flex-aside-actividades {
-         display: flex;
-         flex-direction: row-reverse;
-         align-items: center;
-         justify-content: center;
-     }
-
-     .actividades-img {
-        padding-left: 5rem;
-     }
-
-     /*--Sección - "Gastronomía" */
-
-
-     .grilla-gastronomia {
-         display: grid;
-         grid-template-columns: 50% 50%;
-         grid-template-rows: 300px;
-         align-items: center;
-
-     }
-
-     .imagen-gastronomia {
-       
-        width: 50vw; 
-
-     }
-
-     .ul-comidas {
-         text-align: start;
-         justify-content: center;
-         color: white;
-
-     }
-
-     /*--Sección - "Compras" */
-
-     .compras-parrafo {
-         display: grid;
-         text-align: center;
-         padding-top: 1rem;
-         padding-bottom: 1rem;
-     }
-
-
- }
-
-
- /*--Desktop -- Index "HOME PAGE" */
-
-
-
-  @media (min-width: 1200px) {
-
-         /*--HEADER--" */
-
- /*--Portada-- todas 1200px" */
-
-
- .portada-newsletter-suscribite {
-
+@media (min-width: 768px) {
+  .portada-newsletter-suscribite {
+    margin-right: 3.1rem;
+    font-size: 1.5rem;
+  }
+  .portada-newsletter-titulo {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+  }
+  .portada-newsletter-h1 {
+    font-size: 5rem;
+    padding-top: 2rem;
+  }
+  .portada-newsletter-subtitulo-h1 {
+    font-size: 1.8rem;
+    padding-left: 9rem;
+  }
+}
+@media (min-width: 1200px) {
+  .portada-newsletter-suscribite {
     margin-right: 3.1rem;
     font-size: 2rem;
-
-}
-
-.portada-newsletter-titulo {
+  }
+  .portada-newsletter-titulo {
     font-size: 2.5rem;
     padding-top: 3rem;
-}
-
-.portada-newsletter-h1 {
+  }
+  .portada-newsletter-h1 {
     font-size: 7.5rem;
     padding-top: 4rem;
-
-}
-
-.portada-newsletter-subtitulo-h1 {
+  }
+  .portada-newsletter-subtitulo-h1 {
     font-size: 2.5rem;
     padding-left: 16rem;
-    
+  }
+}
+.nav-bootstrap {
+  background-color: rgb(230, 229, 229);
 }
 
- /*--MAIN--" */
+@media (min-width: 768px) {
+  .carrusel {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .carrusel-img {
+    height: 200px;
+    width: 100%;
+  }
+}
+.tarjeta {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+}
+.tarjeta-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tarjeta-texto {
+  font-family: lato, sans-serif;
+  padding-top: 0.5rem;
+  text-align: justify;
+}
+.tarjeta-titulo {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.tarjeta-imagen {
+  width: 100%;
+  height: 200px;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
 
- /*--Sección - "Historia" */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tarjeta {
+    display: inline-block;
+    margin-left: 1.5rem;
+    width: 350px;
+  }
+}
+.footer {
+  background-color: grey;
+  color: white;
+  padding-bottom: 2rem;
+}
+.footer-sec {
+  text-align: center;
+  padding-top: 2rem;
+}
+.footer-links {
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.3rem;
+}
+.footer-contacto {
+  text-align: center;
+  padding-top: 1rem;
+}
+.footer-contacto-lista {
+  text-align: center;
+  padding: 0.5rem;
+}
 
- .titulo-secciones {
-
-     font-size: 2rem;
- }
-
- 
- .contenedor-historia {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+@media (min-width: 1200px) {
+  .enlaces-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
     align-items: center;
+  }
+}
+input:focus {
+  border: 2px solid black;
+}
 
+.form-parrafo {
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.form-label {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.form-checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  border: 1px solid black;
+  padding: 0.5rem -5rem;
+  border-radius: 5px;
+  background-color: rgb(199, 198, 198);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: grey;
 }
 
 .contenedor-mapa {
-   
-    width: 400px;
-
+  height: 150px;
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+.contenedor-mapa-iframe {
+  width: 100%;
+  height: 100%;
 }
 
- /*--Aside--" */
+.aside-titulo {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
 
+.aside-subtitulo {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-decoration-line: underline;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
 
- .aside-caja {
+.aside-caja {
+  width: 300px;
+  height: 400px;
+  overflow: auto;
+  padding: 1.5rem;
+  margin: 1rem;
+  border: solid 1px;
+  background-color: rgb(160, 207, 219);
+  position: relative;
+}
+
+.aside-festividades {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aside-curiosidades {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-top: 2rem;
+  justify-content: space-around;
+}
+
+/*-- Sección "Actividades--*/
+.imagen-nilo {
+  width: 200px;
+  height: 150px;
+  margin-left: 15px;
+  padding-top: 0.5rem;
+}
+
+.nombre-nilo {
+  font-size: 1rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+}
+
+.imagen-camello {
+  width: 230px;
+  height: 150px;
+  position: relative;
+  left: 130px;
+  bottom: 20px;
+}
+
+.nombre-camello {
+  font-size: 1rem;
+  padding-left: 14rem;
+  position: relative;
+  bottom: 10px;
+}
+
+.imagen-danza {
+  width: 200px;
+  height: 150px;
+  margin-left: 15px;
+  position: relative;
+  bottom: 60px;
+}
+
+.nombre-danza {
+  font-size: 1rem;
+  margin-left: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
+.imagen-gastronomia {
+  background-image: url(../img/comida.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  width: 100vw;
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-comidas {
+  text-align: start;
+  justify-content: center;
+  padding-left: 3rem;
+  color: white;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.compras-imagen {
+  background-image: url(../img/bazar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  margin-top: 1.5rem;
+}
+
+.compras-titulo {
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  padding-top: 1rem;
+}
+
+.compras-parrafo {
+  text-align: justify center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  font-weight: 700;
+}
+
+.compras-link {
+  color: black;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .contenedor-mapa {
+    height: 85%;
+    width: 350px;
+  }
+  .contenedor-mapa-iframe {
+    padding-right: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+  }
+  .contenedor-historia {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .aside-titulo {
+    display: none;
+  }
+  .aside-caja {
+    width: 200px;
+    height: 700px;
+  }
+  .flex-aside-visitas {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .flex-aside-actividades {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .actividades-img {
+    padding-left: 5rem;
+  }
+  /*--Sección - "Gastronomía" */
+  .grilla-gastronomia {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+    align-items: center;
+  }
+  .imagen-gastronomia {
+    width: 50vw;
+  }
+  .ul-comidas {
+    text-align: start;
+    justify-content: center;
+    color: white;
+  }
+  /*--Sección - "Compras" */
+  .compras-parrafo {
+    display: grid;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor-mapa {
+    width: 400px;
+  }
+  .contenedor-historia {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+  }
+  .aside-caja {
     width: 350px;
     height: 650px;
-
-}
-
-.aside-caja-curiosidades {
+  }
+  .aside-caja-curiosidades {
     height: 960px;
-}
-
-.actividades-img {
+  }
+  .actividades-img {
     padding-left: 15rem;
- }
-
- /*--Gastronomia--*/ 
-
-
- .imagen-gastronomia {
-     display: grid;
-     align-items: center;
-     width: 40vw;
-     height: 250px;
-
-
- }
-
- .ul-comidas {
-
+  }
+  /*--Gastronomia--*/
+  .imagen-gastronomia {
+    display: grid;
+    align-items: center;
+    width: 40vw;
+    height: 250px;
+  }
+  .ul-comidas {
     justify-content: start;
     text-align: start;
     padding-left: 5rem;
-
- }
-
- 
- /*--FOOTER--" */
-
- .enlaces-contacto {
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     gap: 100px;
-     align-items: center;
-
- }
-
   }
-
-
- /*--Mobile Fisrt-- "VISITAR"--*/
-
-
- /*--MAIN-- "Sección - Lugares para Descubrir" */
-
-
- /*--Tajetas - Imagenes "Lugares para Descubrir" */
-
-
- .tarjeta {
-     width: 100%;
-     display: block;
-     padding: 1rem;
-     padding-bottom: 1.5rem;
-
- }
-
-
- .tarjeta-body {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-
- }
-
-
- .tarjeta-texto {
-
-     font-family: "lato", sans-serif;
-     padding-top: 0.5rem;
-     text-align: justify;
-
- }
-
- .tarjeta-titulo {
-     font-family: "Merriweather", sans-serif;
-     font-weight: 900;
-     padding-bottom: 0.5rem;
-     font-size: 1.3rem;
- }
-
-
- .tarjeta-imagen {
-
-    width: 100%;
-    height: 200px;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-
+}
+@media (min-width: 1200px) {
+  .grilla-contenedor-visitar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 fr 700px);
+    justify-items: center;
+  }
+}
+.imagen-actividades {
+  width: 100%;
+  object-fit: contain;
+  padding: 1rem;
+  max-height: 300px;
 }
 
- /*--Tablet -- Sección "VISITAR" */
-
- @media (min-width: 768px) and (max-width: 1023px) {
-
-
-     /*--MAIN-- "Sección - Lugares para Descubrir" */
-
-
-     .tarjeta {
-         display: inline-block;
-         margin-left: 1.5rem;
-         width: 350px;
-
-     }
-
- }
-
-
- /*--Desktop -- Sección "VISITAR" */
-
-
-
- @media (min-width: 1200px) {
-
-
-     /*--MAIN-- "Sección - Lugares para Descubrir" */
-
-
-     .grilla-contenedor-visitar {
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
-         grid-template-rows: repeat(3 fr 700px);
-         justify-items: center;
-
-     }  
-
- }
-
- /*--Mobile Fisrt-- "ACTIVIDADES" */
-
-
- @media (min-width: 375px) {
-
-
-     /*-- MAIN -- "Experiencias Imprescindibles" --*/
-
-    
-     .subtitulo-seccion {
-         font-family: "Merriweather", sans-serif;
-         font-weight: 700;
-         font-size: 1.2rem;
-         text-align: center;
-         color: black;
-     }
-
-
-     .imagen-actividades {
-         width: 100%;
-         object-fit: contain;
-         padding: 1rem;
-         max-height: 300px;
-     }
-
- }
-
-
-
- /*--Tablet -- Sección "ACTIVIDADES" */
-
-
- @media (min-width: 768px) {
-
-
-  
-
-     /*-- MAIN -- "Experiencias Imprescindibles" --*/
-
-     .subtitulo-seccion {
-         font-size: 1.5rem;
-         padding: 1rem;
-     }
-
-     .imagen-actividades {
-        max-height: 400px;  
-         object-fit: cover;
-         padding-bottom: 1.5rem;
-         padding-left: 1.5rem;
-         padding-right: 1.5rem;
-
-     }
-
-     .parrafo {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-     }
- }
-
-
- /*--Desktop -- Sección "ACTIVIDADES" */
-
-
-
- @media (min-width: 1200px) {
-
-
-
-     /*-- MAIN -- "Experiencias Imprescindibles" --*/
-
-     .parrafo {
-         padding-left: 2rem;
-         padding-right: 2rem;
-         text-align: justify center;
-     }
-
-     .subtitulo-seccion {
-         font-size: 2rem;
-         padding: 1rem;
-         padding-top: 3rem;
-     }
-
-
-     .imagen-actividades {
-         width: 700px;
-         height: 450px;
-      
-     }
-
-     .contenedor {
-         display: flex;
-         flex-direction: row;
-         align-content: center;
-         align-items: center;
-     }
-
-     
-     .contenedor-camello {
-         display: flex;
-         flex-direction: row-reverse;
-         align-content: center;
-         align-items: center;
-     }
-
- }
-
-
- /*--Mobile First -- Sección "GASTRONOMÍA" */
-
-
+@media (min-width: 768px) {
+  .imagen-actividades {
+    max-height: 400px;
+    object-fit: cover;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .parrafo {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .parrafo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify center;
+  }
+  .imagen-actividades {
+    width: 700px;
+    height: 450px;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+  .contenedor-camello {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+  }
+}
 .imagen-fondo {
-    background-image: url(../img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/*# sourceMappingURL=styles.css.map */

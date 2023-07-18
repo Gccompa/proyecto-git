@@ -1,0 +1,62 @@
+
+
+.footer {
+    background-color: $b-c;
+    color: $c-b;
+  padding-bottom: 2rem;
+   
+
+
+    &-sec {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+
+    &-links {
+        font-weight: $fw-regular;
+        font-size: 1rem;
+        color: $c-b;
+        display: flex;
+        justify-content: center;
+        padding-top: 0.3rem;
+
+    }
+
+
+
+    &-contacto {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+
+
+
+
+    &-contacto-lista {
+        text-align: center;
+        padding: 0.5rem;
+    
+    }
+
+
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    .enlaces-contacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+   
+    }
+
+}

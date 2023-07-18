@@ -1,0 +1,64 @@
+
+.imagen-actividades {
+    width: 100%;
+    object-fit: contain;
+    padding: 1rem;
+    max-height: 300px;
+}
+
+
+@media (min-width: 768px) {
+
+    .imagen-actividades {
+        max-height: 400px;  
+         object-fit: cover;
+         padding-bottom: 1.5rem;
+         padding-left: 1.5rem;
+         padding-right: 1.5rem;
+
+     }
+
+ 
+     .parrafo {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+     }
+
+    }
+
+
+
+    @media (min-width: 1200px) {
+
+        .parrafo {
+            padding-left: 2rem;
+            padding-right: 2rem;
+            text-align: justify center;
+        }
+
+
+        .imagen-actividades {
+            width: 700px;
+            height: 450px;
+         
+        }
+   
+        .contenedor {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+        }
+   
+        
+        .contenedor-camello {
+            display: flex;
+            flex-direction: row-reverse;
+            align-content: center;
+            align-items: center;
+        }
+   
+
+
+    }
+   

@@ -1,0 +1,118 @@
+
+.portada-newsletter {
+    background-image: url(../img/portada2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    width: 100vw;
+    display: inline-block;
+
+
+
+    &-suscribite {
+        display: flex;
+        justify-content: end;
+        margin-right: 1.4rem;
+        font-size: 0.8rem;
+        color: $c-b;
+        font-family: $ff-texto;
+        font-weight: $fw-semibold;
+    
+    
+    }
+
+
+    &-titulo {
+        padding-top: 1.3rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: white;
+    }
+
+
+
+    &-h1 {
+
+        font-family: $ff-titulos;
+        font-weight: $fw-bold;
+        font-size: 2.5rem;
+        text-align: center;
+        color: $c-b;
+    
+    }
+
+
+
+    &-subtitulo-h1 {
+        padding-top: 0.3rem;
+        font-size: 1rem;
+        padding-left: 3rem;
+        font-family: $ff-texto;
+        font-weight: $fw-semibold;
+        color: $c-b;
+    }
+
+
+}
+
+
+
+@media (min-width: 768px) {
+
+   
+
+    .portada-newsletter-suscribite {
+
+        margin-right: 3.1rem;
+        font-size: 1.5rem;
+  
+
+    }
+
+    .portada-newsletter-titulo {
+        font-size: 1.8rem;
+        padding-top: 2rem;
+    }
+
+    .portada-newsletter-h1 {
+        font-size: 5rem;
+        padding-top: 2rem;
+
+    }
+
+    .portada-newsletter-subtitulo-h1 {
+        font-size: 1.8rem;
+        padding-left: 9rem;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    
+ .portada-newsletter-suscribite {
+
+    margin-right: 3.1rem;
+    font-size: 2rem;
+
+}
+
+.portada-newsletter-titulo {
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.portada-newsletter-h1 {
+    font-size: 7.5rem;
+    padding-top: 4rem;
+
+}
+
+.portada-newsletter-subtitulo-h1 {
+    font-size: 2.5rem;
+    padding-left: 16rem;
+    
+}
+
+}

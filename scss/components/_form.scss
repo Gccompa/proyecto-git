@@ -1,0 +1,25 @@
+
+input:focus {
+    border: 2px solid $c-n;
+}
+
+
+.form-parrafo {
+    text-align: center;
+    font-weight: $fw-semibold;
+    padding: 1rem;
+}
+
+.form-label {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem
+}
+
+.form-checkbox {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+
+}

@@ -1,0 +1,116 @@
+$ff-texto: lato, sans-serif;
+$ff-titulos: "Merriweather", sans-serif;
+$fw-bold: 900;
+$fw-semibold: 700;
+$fw-regular: 400;
+$c-b: white;
+$c-n: black;
+$c-nav: rgb(230, 229, 229);
+$b-c: grey;
+$c-aside: rgb(160, 207, 219);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+nav ul li {
+    display: inline-block
+}
+
+a {
+    text-decoration: none;
+    font-family:$ff-texto;
+    color:$c-n;
+   
+  &:active {
+        color: blue
+    }
+}
+
+
+
+
+
+.titulo-secciones {
+
+    font-family: $ff-titulos;
+    font-weight: $fw-semibold;
+    font-size: 1.3rem;
+    text-align: center;
+    color: $c-n;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+
+
+    
+   
+
+}
+
+
+
+
+.parrafo {
+
+    font-family: $ff-texto;
+    font-weight: $fw-regular;
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align: justify center;
+
+}
+
+
+.subtitulo-seccion {
+    font-family: $ff-titulos;
+    font-weight: $fw-semibold;
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+}
+
+
+@media (min-width: 768px) {
+
+    .titulo-secciones {
+
+        padding-top: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .subtitulo-seccion {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+    .titulo-secciones {
+
+        font-size: 2rem;
+    }
+
+
+    .subtitulo-seccion {
+        font-size: 2rem;
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+
+
+}

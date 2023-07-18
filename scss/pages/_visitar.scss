@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+
+    .grilla-contenedor-visitar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3 fr 700px);
+        justify-items: center;
+
+    }  
+
+}

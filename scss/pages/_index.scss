@@ -1,0 +1,332 @@
+.contenedor-mapa {
+    height: 150px;
+    width: 100%;
+    padding-bottom: 1.5rem;
+
+
+    
+&-iframe {
+    width: 100%;
+    height: 100%;
+    
+ }
+ 
+}
+
+
+.aside-titulo {
+    font-family: $ff-titulos;
+    font-weight: $fw-semibold;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.aside-subtitulo {
+    font-family: $ff-titulos;
+    font-weight: $fw-bold;
+    font-size: 1.3rem;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+
+.aside-caja {
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+    padding: 1.5rem;
+    margin: 1rem;
+    border: solid 1px;
+    background-color: rgb(160, 207, 219);
+    position: relative;
+
+
+}
+
+
+.aside-festividades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.aside-curiosidades {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+
+
+
+     /*-- Sección "Actividades--*/
+
+
+
+     .imagen-nilo {
+        width: 200px;
+        height: 150px;
+        margin-left: 15px;
+        padding-top: 0.5rem;
+
+    }
+
+    .nombre-nilo {
+        font-size: 1rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+    }
+
+    .imagen-camello {
+        width: 230px;
+        height: 150px;
+        position: relative;
+        left: 130px;
+        bottom: 20px;
+    }
+
+    .nombre-camello {
+        font-size: 1rem;
+        padding-left: 14rem;
+        position: relative;
+        bottom: 10px;
+
+    }
+
+    .imagen-danza {
+        width: 200px;
+        height: 150px;
+        margin-left: 15px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .nombre-danza {
+        font-size: 1rem;
+        margin-left: 50px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    
+    .imagen-gastronomia {
+        background-image: url(../img/comida.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 200px;
+        width: 100vw;
+        padding-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .ul-comidas {
+        text-align: start;
+        justify-content: center;
+        padding-left: 3rem;
+        color: $c-b;
+        font-family: $ff-titulos;
+        font-weight: $fw-semibold;
+        font-size: 1rem;
+
+    }
+
+
+    
+    .compras-imagen {
+        background-image: url(../img/bazar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        margin-top: 1.5rem;
+
+    }
+
+
+    .compras-titulo {
+
+        text-align: center;
+        font-weight: $fw-bold;
+        color: $c-b;
+        padding-top: 1rem;
+
+
+
+    }
+   
+    .compras-parrafo {
+
+        text-align: justify center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: $c-b;
+        font-weight: $fw-semibold;
+
+    }
+
+
+    .compras-link {
+        color: $c-n;
+        font-weight: $fw-bold;
+        font-size: 1.2rem;
+
+    }
+
+    @media (min-width: 768px) {
+
+
+        .contenedor-mapa {
+            height: 85%;
+            width: 350px;
+    
+            &-iframe {
+                padding-right: 2rem;
+                padding-top: 2rem;
+                justify-content: center;
+        
+        
+            }
+
+
+        }
+    
+      
+
+        .contenedor-historia {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+          
+        }
+    
+        .aside-titulo {
+
+            display: none;
+        }
+        
+             .aside-caja {
+                 width: 200px;
+                 height: 700px;
+        
+             }
+        
+        
+             .flex-aside-visitas {
+                 display: flex;
+                 justify-content: center;
+                 align-items: start;
+             }
+
+
+
+             .flex-aside-actividades {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: center;
+            }
+       
+            .actividades-img {
+               padding-left: 5rem;
+            }
+       
+            /*--Sección - "Gastronomía" */
+       
+       
+            .grilla-gastronomia {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 300px;
+                align-items: center;
+       
+            }
+       
+            .imagen-gastronomia {
+              
+               width: 50vw; 
+       
+            }
+       
+            .ul-comidas {
+                text-align: start;
+                justify-content: center;
+                color: $c-b;
+       
+            }
+       
+            /*--Sección - "Compras" */
+       
+            .compras-parrafo {
+                display: grid;
+                text-align: center;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+       
+       
+
+    }   
+
+    
+  @media (min-width: 1200px) {
+
+
+
+    .contenedor-mapa {
+   
+        width: 400px;
+    
+    }
+
+ 
+    .contenedor-historia {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    
+    }
+
+    .aside-caja {
+        width: 350px;
+        height: 650px;
+    
+    }
+    
+    .aside-caja-curiosidades {
+        height: 960px;
+    }
+    
+    .actividades-img {
+        padding-left: 15rem;
+     }
+    
+     /*--Gastronomia--*/ 
+    
+    
+     .imagen-gastronomia {
+         display: grid;
+         align-items: center;
+         width: 40vw;
+         height: 250px;
+    
+    
+     }
+    
+     .ul-comidas {
+    
+        justify-content: start;
+        text-align: start;
+        padding-left: 5rem;
+    
+     }
+
+    }
