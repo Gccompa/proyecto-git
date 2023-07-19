@@ -99,6 +99,7 @@ a:active {
   font-size: 2.5rem;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 2px;
 }
 .portada-newsletter-subtitulo-h1 {
   padding-top: 0.3rem;
@@ -121,6 +122,7 @@ a:active {
   .portada-newsletter-h1 {
     font-size: 5rem;
     padding-top: 2rem;
+    text-shadow: 2px 2px 2px;
   }
   .portada-newsletter-subtitulo-h1 {
     font-size: 1.8rem;
@@ -139,6 +141,7 @@ a:active {
   .portada-newsletter-h1 {
     font-size: 7.5rem;
     padding-top: 4rem;
+    text-shadow: 2px 2px 2px;
   }
   .portada-newsletter-subtitulo-h1 {
     font-size: 2.5rem;
@@ -305,6 +308,7 @@ input:focus {
   border: solid 1px;
   background-color: rgb(160, 207, 219);
   position: relative;
+  box-shadow: 6px 6px 5px;
 }
 
 .aside-festividades {
@@ -328,6 +332,7 @@ input:focus {
   height: 150px;
   margin-left: 15px;
   padding-top: 0.5rem;
+  box-shadow: 8px 8px 5px;
 }
 
 .nombre-nilo {
@@ -342,6 +347,7 @@ input:focus {
   position: relative;
   left: 130px;
   bottom: 20px;
+  box-shadow: 8px 8px 5px;
 }
 
 .nombre-camello {
@@ -357,6 +363,7 @@ input:focus {
   margin-left: 15px;
   position: relative;
   bottom: 60px;
+  box-shadow: 8px 8px 5px;
 }
 
 .nombre-danza {
@@ -559,9 +566,54 @@ input:focus {
   }
 }
 .imagen-fondo {
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../../img/fondo-gastronomia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left;
+}
+
+.titulo-secciones-gastronomia {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.parrafo-gastronomia {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.8rem;
+  padding-bottom: 3rem;
+  text-align: justify center;
+  color: white;
+}
+
+.subtitulo-seccion-gastronomia {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .titulo-secciones-gastronomia {
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+  }
+  .parrafo-gastronomia {
+    padding-right: 20rem;
+  }
+  .subtitulo-seccion-gastronomia {
+    text-align: start;
+    padding-left: 13rem;
+    padding-bottom: 1rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

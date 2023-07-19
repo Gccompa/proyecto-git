@@ -42,6 +42,7 @@
     border: solid 1px;
     background-color: rgb(160, 207, 219);
     position: relative;
+    box-shadow: 6px 6px 5px;
 
 
 }
@@ -75,6 +76,7 @@
         height: 150px;
         margin-left: 15px;
         padding-top: 0.5rem;
+        box-shadow: 8px 8px 5px;
 
     }
 
@@ -90,6 +92,7 @@
         position: relative;
         left: 130px;
         bottom: 20px;
+        box-shadow: 8px 8px 5px;
     }
 
     .nombre-camello {
@@ -97,6 +100,7 @@
         padding-left: 14rem;
         position: relative;
         bottom: 10px;
+       
 
     }
 
@@ -106,6 +110,7 @@
         margin-left: 15px;
         position: relative;
         bottom: 60px;
+        box-shadow: 8px 8px 5px;
     }
 
     .nombre-danza {
@@ -126,7 +131,7 @@
         padding-top: 0.5rem;
         display: flex;
         flex-direction: column;
-
+      
     }
 
 
