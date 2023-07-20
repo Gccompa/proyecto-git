@@ -1,4 +1,13 @@
 
+.carrusel-img {
+    height: 200px;
+}
+
+.text-black {
+    color: black;
+    font-weight: $fw-bold;
+
+}
 
 @media (min-width: 768px) {
 
@@ -8,13 +17,20 @@
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
+    
 
 
     &-img {
-        height: 200px;
+        height: 300px;
         width: 100%;
     }
     
+}
+
+.carrusel-compras {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 }

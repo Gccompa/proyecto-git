@@ -40,7 +40,7 @@
     padding: 1.5rem;
     margin: 1rem;
     border: solid 1px;
-    background-color: rgb(160, 207, 219);
+    background-color: $c-aside;
     position: relative;
     box-shadow: 6px 6px 5px;
 
@@ -76,8 +76,7 @@
         height: 150px;
         margin-left: 15px;
         padding-top: 0.5rem;
-        box-shadow: 8px 8px 5px;
-
+        box-shadow: $b-shadow;
     }
 
     .nombre-nilo {
@@ -92,7 +91,7 @@
         position: relative;
         left: 130px;
         bottom: 20px;
-        box-shadow: 8px 8px 5px;
+        box-shadow: $b-shadow;
     }
 
     .nombre-camello {
