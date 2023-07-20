@@ -7,7 +7,6 @@
 }
 
 
-
 .titulo-secciones-gastronomia {
 
     font-family: $ff-titulos;
@@ -16,8 +15,7 @@
     text-align: center;
     color: $c-b;
     padding-top: 3rem;
-    padding-bottom: 1.5rem;
-   
+    padding-bottom: 1.5rem; 
 
 }
 
@@ -34,7 +32,6 @@
 
 }
 
-
 .subtitulo-seccion-gastronomia {
     font-family: $ff-titulos;
     font-weight: $fw-semibold;
@@ -46,15 +43,12 @@
 @media (min-width: 768px) {
 
 
-
     .titulo-secciones-gastronomia {
 
-      
-        padding-top: 5rem;
-        padding-bottom: 1.5rem;
+         padding-top: 5rem;
+         padding-bottom: 1.5rem;
     
        
-    
     }
     
 
@@ -71,5 +65,41 @@
 }
 
 @media (min-width: 1200px) {
+
+.imagen-fondo {
+    background-position:left;
+     
     
+}
+.titulo-secciones-gastronomia {
+
+      
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+ 
+   
+}
+
+  
+.subtitulo-seccion-gastronomia {
+   
+   text-align: center;
+   padding-right: 10rem;
+   font-size: 2rem;
+     
+}
+
+
+.parrafo-gastronomia {
+
+   font-weight: $fw-bold;
+   font-size: 1.2rem;
+   text-align: center;
+   padding-left: 15rem;
+   padding-right: 10rem;
+  
+
+}
+
 }

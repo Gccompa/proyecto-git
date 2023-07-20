@@ -615,5 +615,27 @@ input:focus {
     padding-bottom: 1rem;
   }
 }
+@media (min-width: 1200px) {
+  .imagen-fondo {
+    background-position: left;
+  }
+  .titulo-secciones-gastronomia {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  .subtitulo-seccion-gastronomia {
+    text-align: center;
+    padding-right: 10rem;
+    font-size: 2rem;
+  }
+  .parrafo-gastronomia {
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 10rem;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
