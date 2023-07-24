@@ -3,8 +3,8 @@
     background-image: url(../img/portada2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vw;
-    width: 100vw;
+    height: 35vh;
+    width: 100%;
     display: inline-block;
 
 
@@ -63,6 +63,10 @@
 @media (min-width: 768px) {
 
    
+.portada-newsletter {
+    height: 70vh;
+}
+
 
     .portada-newsletter-suscribite {
 
@@ -95,6 +99,10 @@
 
 @media (min-width: 1200px) {
 
+    .portada-newsletter {
+        height: 95vh;
+    }
+    
     
  .portada-newsletter-suscribite {
 

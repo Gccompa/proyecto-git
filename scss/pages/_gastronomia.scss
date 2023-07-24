@@ -1,9 +1,9 @@
 
 .imagen-fondo {
-    background-image: url(../../img/fondo-gastronomia.jpg);
+    background-image: url(../img/comidas-fondo.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: left;
+    background-position:center;
 }
 
 
@@ -27,7 +27,7 @@
     padding-left: 1.5rem;
     padding-right: 1.8rem;
     padding-bottom: 3rem;
-    text-align: justify center;
+    text-align:  center;
     color: $c-b;
 
 }
@@ -43,63 +43,43 @@
 @media (min-width: 768px) {
 
 
-    .titulo-secciones-gastronomia {
 
-         padding-top: 5rem;
-         padding-bottom: 1.5rem;
-    
+    .flex-gastronomia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
        
-    }
     
+      }
 
-    .parrafo-gastronomia {
-        padding-right: 20rem;
-    }
 
-    .subtitulo-seccion-gastronomia {
-        text-align: start;
-        padding-left: 13rem;
-        padding-bottom: 1rem;
-    }
 
 }
 
 @media (min-width: 1200px) {
 
+
+
 .imagen-fondo {
-    background-position:left;
-     
-    
+    background-position:center;      
 }
-.titulo-secciones-gastronomia {
 
-      
-  font-size: 2.5rem;
-  text-align: center;
-  padding-bottom: 0.5rem;
- 
+  .flex-gastronomia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12rem;
+    padding-right: 12rem;
    
-}
+  }
 
-  
-.subtitulo-seccion-gastronomia {
-   
-   text-align: center;
-   padding-right: 10rem;
-   font-size: 2rem;
-     
-}
-
-
-.parrafo-gastronomia {
-
-   font-weight: $fw-bold;
-   font-size: 1.2rem;
-   text-align: center;
-   padding-left: 15rem;
-   padding-right: 10rem;
-  
-
-}
+  .parrafo-gastronomia {
+    font-weight: $fw-bold;
+    font-size: 1.3rem;
+  }
 
 }

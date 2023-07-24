@@ -1,6 +1,7 @@
 
 .carrusel-img {
-    height: 200px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .text-black {
@@ -23,6 +24,7 @@
     &-img {
         height: 300px;
         width: 100%;
+        object-fit: cover;
     }
     
 }

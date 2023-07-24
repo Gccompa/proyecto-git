@@ -1,9 +1,7 @@
-.contenedor-mapa {
-    height: 150px;
+.mapa {
+    height: 200px;
     width: 100%;
     padding-bottom: 1.5rem;
-
-
     
 &-iframe {
     width: 100%;
@@ -121,7 +119,7 @@
 
     
     .imagen-gastronomia {
-        background-image: url(../img/comida.jpg);
+        background-image: url(../img/comidas.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -135,7 +133,7 @@
 
 
     .ul-comidas {
-        text-align: start;
+      
         justify-content: center;
         padding-left: 3rem;
         color: $c-b;
@@ -148,11 +146,11 @@
 
     
     .compras-imagen {
-        background-image: url(../img/bazar.jpg);
+        background-image: url(../img/bazar-compras.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        margin-top: 1.5rem;
+        margin-top: 2.5rem;
 
     }
 
@@ -243,6 +241,42 @@
                padding-left: 5rem;
             }
        
+            .imagen-nilo {
+                width: 250px;
+                height: 200px;
+              
+            }
+        
+            .nombre-nilo {
+                font-size: 1.3rem;
+                  
+            }
+
+            .imagen-camello {
+                width: 250px;
+                height: 200px;   
+            }
+
+            .nombre-camello {
+                font-size: 1.3rem;
+                padding-left: 16rem;
+                position: relative;
+                bottom: 10px;   
+        
+            }
+
+            .imagen-danza {
+                width: 220px;
+                height: 180px;
+             
+            }
+        
+        
+    .nombre-danza {
+        font-size: 1.3rem;
+      
+    }
+
             /*--Sección - "Gastronomía" */
        
        
@@ -288,6 +322,7 @@
     .contenedor-mapa {
    
         width: 400px;
+        height: 300px;
     
     }
 
@@ -319,7 +354,7 @@
      .imagen-gastronomia {
          display: grid;
          align-items: center;
-         width: 40vw;
+         width: 500px;
          height: 250px;
     
     
@@ -328,7 +363,6 @@
      .ul-comidas {
     
         justify-content: start;
-        text-align: start;
         padding-left: 5rem;
     
      }
