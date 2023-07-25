@@ -77,7 +77,7 @@ a:active {
   height: 35vh;
   width: 100%;
   display: inline-block;
-  object-fit: cover;
+  background-position: 90% 0%;
 }
 .portada-newsletter-suscribite {
   display: flex;
