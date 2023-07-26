@@ -24,7 +24,9 @@
     
     }
 
- 
+    &:hover {
+        transform: scaleX(0.5);
+       }
    
 }
 
@@ -35,9 +37,7 @@
     padding-left: 3rem;
     padding-right: 3rem;
 
-    &:hover {
-        transform: scaleX(1.2);
-       }
+   
 }
 
 }
@@ -50,15 +50,16 @@
        
     }
 
+
+
+
 .contenedor-compras-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-left: 3.5rem;
     padding-top: 2rem;
-
-
-    
+  
    
 }
 
