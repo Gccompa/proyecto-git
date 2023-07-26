@@ -1,14 +1,58 @@
-.mercado-video {
-    padding-left: 2.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
+
+.img {
+    
+    width: 100%;
+    object-fit: cover;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &-artesanias {
+      
+        height: 250px;  
+      
+    }
+
+    &-especias {
+   
+        height: 200px;
+        translate: $c-traslate;     
+    }
+
+    &-textiles {
+        height: 200px;
+        translate: $c-traslate;
+    
+    }
+
+   
+   
 }
 
 @media (min-width: 768px) {
-   
-    .mercado-video {
-        padding-left: 15rem;
+
+.img {
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+    .img {
+        width: 50%;
     }
 
-  
+.contenedor-compras {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    
+   
+
+
 }
+
+}
+
+

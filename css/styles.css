@@ -305,6 +305,30 @@ input:focus {
   height: 100%;
 }
 
+.mercado-video {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .mapa {
+    height: 85%;
+    width: 350px;
+  }
+  .mapa-iframe {
+    padding-right: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .mapa {
+    width: 400px;
+    height: 300px;
+  }
+}
 .aside-titulo {
   font-family: "Merriweather", sans-serif;
   font-weight: 700;
@@ -447,15 +471,6 @@ input:focus {
 }
 
 @media (min-width: 768px) {
-  .contenedor-mapa {
-    height: 85%;
-    width: 350px;
-  }
-  .contenedor-mapa-iframe {
-    padding-right: 2rem;
-    padding-top: 2rem;
-    justify-content: center;
-  }
   .contenedor-historia {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -529,10 +544,6 @@ input:focus {
   }
 }
 @media (min-width: 1200px) {
-  .contenedor-mapa {
-    width: 400px;
-    height: 300px;
-  }
   .contenedor-historia {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -612,7 +623,7 @@ input:focus {
   }
 }
 .imagen-fondo {
-  background-image: url(../img/comidas-fondo.jpg);
+  background-image: url(../img/fondo-comidas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -620,17 +631,17 @@ input:focus {
 
 .titulo-secciones-gastronomia {
   font-family: "Merriweather", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
+  color: white;
   font-size: 1.3rem;
   text-align: center;
-  color: white;
-  padding-top: 3rem;
+  padding-top: 3.5rem;
   padding-bottom: 1.5rem;
 }
 
 .parrafo-gastronomia {
   font-family: lato, sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.8rem;
@@ -641,31 +652,29 @@ input:focus {
 
 .subtitulo-seccion-gastronomia {
   font-family: "Merriweather", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 1.3rem;
   text-align: center;
   color: white;
 }
 
+.flex-gastronomia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .flex-gastronomia {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
   }
 }
 @media (min-width: 1200px) {
-  .imagen-fondo {
-    background-position: center;
-  }
   .flex-gastronomia {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-left: 12rem;
     padding-right: 12rem;
   }
@@ -674,15 +683,37 @@ input:focus {
     font-size: 1.3rem;
   }
 }
-.mercado-video {
-  padding-left: 2.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 2rem;
+.img {
+  width: 100%;
+  object-fit: cover;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.img-artesanias {
+  height: 250px;
+}
+.img-especias {
+  height: 200px;
+  translate: 0px -50px;
+}
+.img-textiles {
+  height: 200px;
+  translate: 0px -50px;
 }
 
 @media (min-width: 768px) {
-  .mercado-video {
-    padding-left: 15rem;
+  .img {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .img {
+    width: 50%;
+  }
+  .contenedor-compras {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
   }
 }
 
