@@ -32,14 +32,14 @@ nav ul li {
 
 a {
     text-decoration: none;
-    font-family:$ff-texto;
-    color:$c-n;
-   
-  &:active {
+    font-family: $ff-texto;
+    color: $c-n;
+
+    &:active {
         color: blue
     }
 
-   
+
 }
 
 
@@ -55,11 +55,11 @@ a {
     color: $c-n;
     padding-top: 3rem;
     padding-bottom: 1.5rem;
-   
 
 
-    
-   
+
+
+
 
 }
 

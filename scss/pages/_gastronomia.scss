@@ -1,43 +1,42 @@
-
 .imagen-fondo {
-    background-image: url(../img/fondo-comidas.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
+  background-image: url(../img/fondo-comidas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
 .titulo-secciones-gastronomia {
 
-   font-family: $ff-titulos;
-   font-weight: $fw-bold;
-   color: $c-b;
-   font-size: 1.3rem;
-   text-align: center;
-   padding-top: 3.5rem;
-   padding-bottom: 1.5rem;
+  font-family: $ff-titulos;
+  font-weight: $fw-bold;
+  color: $c-b;
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 3.5rem;
+  padding-bottom: 1.5rem;
 
 }
 
 .parrafo-gastronomia {
 
-    font-family: $ff-texto;
-    font-weight: $fw-bold;
-    font-size: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.8rem;
-    padding-bottom: 3rem;
-    text-align:  center;
-    color: $c-b;
+  font-family: $ff-texto;
+  font-weight: $fw-bold;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.8rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: $c-b;
 
 }
 
 .subtitulo-seccion-gastronomia {
-    font-family: $ff-titulos;
-    font-weight: $fw-bold;
-    font-size: 1.3rem;
-    text-align: center;
-    color: $c-b;
+  font-family: $ff-titulos;
+  font-weight: $fw-bold;
+  font-size: 1.3rem;
+  text-align: center;
+  color: $c-b;
 }
 
 .flex-gastronomia {
@@ -45,41 +44,48 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 @media (min-width: 768px) {
 
 
+  .flex-gastronomia {
 
-    .flex-gastronomia {
-       
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: 3rem;
-      padding-bottom: 5rem;
-       
-    
-      }
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 
 
+  }
 
 }
 
 @media (min-width: 1200px) {
 
 
-
-
   .flex-gastronomia {
-   
+
     padding-left: 12rem;
     padding-right: 12rem;
-   
+
+  }
+
+  .titulo-secciones-gastronomia {
+
+    font-size: 2.5rem;
+
+  }
+
+  .subtitulo-seccion-gastronomia {
+
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
   }
 
   .parrafo-gastronomia {
-    font-weight: $fw-bold;
     font-size: 1.3rem;
   }
 

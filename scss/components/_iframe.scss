@@ -32,9 +32,13 @@
             justify-content: center;
         }
     }  
+
+    .video{
+       height: 250px;
+       width: 500px;
+     }
+
 }
-
-
 
 
 @media (min-width: 1200px) {
@@ -45,10 +49,8 @@
         height: 300px;
     }
 
-
-.mercado-video {
-    width: 500px;
-    height: 300px;
+.video {
+    height: 350px;
 }
 }
 

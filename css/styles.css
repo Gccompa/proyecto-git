@@ -89,7 +89,7 @@ a:active {
   font-weight: 700;
 }
 .portada-newsletter-titulo {
-  padding-top: 1.3rem;
+  padding-top: 2rem;
   text-align: center;
   font-size: 0.9rem;
   color: white;
@@ -103,9 +103,8 @@ a:active {
   text-shadow: 2px 2px 2px;
 }
 .portada-newsletter-subtitulo-h1 {
-  padding-top: 0.3rem;
   font-size: 1rem;
-  padding-left: 3rem;
+  text-align: center;
   font-family: lato, sans-serif;
   font-weight: 700;
   color: white;
@@ -121,7 +120,6 @@ a:active {
   }
   .portada-newsletter-titulo {
     font-size: 1.8rem;
-    padding-top: 2rem;
   }
   .portada-newsletter-h1 {
     font-size: 5rem;
@@ -130,7 +128,6 @@ a:active {
   }
   .portada-newsletter-subtitulo-h1 {
     font-size: 1.8rem;
-    padding-left: 9rem;
   }
 }
 @media (min-width: 1200px) {
@@ -138,12 +135,13 @@ a:active {
     height: 95vh;
   }
   .portada-newsletter-suscribite {
-    margin-right: 3.1rem;
+    margin-right: 5rem;
     font-size: 2rem;
+    padding-top: 0.5rem;
   }
   .portada-newsletter-titulo {
     font-size: 2.5rem;
-    padding-top: 3rem;
+    padding-top: 3.5rem;
   }
   .portada-newsletter-h1 {
     font-size: 7.5rem;
@@ -152,7 +150,7 @@ a:active {
   }
   .portada-newsletter-subtitulo-h1 {
     font-size: 2.5rem;
-    padding-left: 16rem;
+    padding-top: 0.5rem;
   }
 }
 .nav-bootstrap {
@@ -215,11 +213,14 @@ a:active {
   padding-bottom: 0.5rem;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
   .tarjeta {
     display: inline-block;
     margin-left: 1.5rem;
     width: 350px;
+  }
+  .tarjeta:hover {
+    transform: scale(1.2);
   }
 }
 .footer {
@@ -322,11 +323,18 @@ input:focus {
     padding-top: 2rem;
     justify-content: center;
   }
+  .video {
+    height: 250px;
+    width: 500px;
+  }
 }
 @media (min-width: 1200px) {
   .mapa {
     width: 400px;
     height: 300px;
+  }
+  .video {
+    height: 350px;
   }
 }
 .aside-titulo {
@@ -420,6 +428,7 @@ input:focus {
   bottom: 50px;
 }
 
+/*-- Sección "Gastronomía--*/
 .imagen-gastronomia {
   background-image: url(../img/comidas.jpg);
   background-repeat: no-repeat;
@@ -441,6 +450,7 @@ input:focus {
   font-size: 1rem;
 }
 
+/*-- Sección "Compras--*/
 .compras-imagen {
   background-image: url(../img/bazar-compras.jpg);
   background-repeat: no-repeat;
@@ -493,6 +503,7 @@ input:focus {
     align-items: center;
     justify-content: center;
   }
+  /*-- Sección "Actividades--*/
   .actividades-img {
     padding-left: 5rem;
   }
@@ -548,6 +559,8 @@ input:focus {
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .aside-caja {
     width: 350px;
@@ -556,8 +569,34 @@ input:focus {
   .aside-caja-curiosidades {
     height: 960px;
   }
+  .flex-aside-visitas {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .flex-aside-actividades {
+    padding-right: 1rem;
+  }
+  /*--Actividades--*/
   .actividades-img {
-    padding-left: 15rem;
+    padding-left: 10rem;
+  }
+  .imagen-nilo {
+    width: 350px;
+    height: 250px;
+  }
+  .imagen-camello {
+    width: 350px;
+    height: 250px;
+  }
+  .nombre-camello {
+    padding-left: 25rem;
+  }
+  .imagen-danza {
+    width: 300px;
+    height: 250px;
+  }
+  .nombre-danza {
+    padding-top: 1rem;
   }
   /*--Gastronomia--*/
   .imagen-gastronomia {
@@ -577,6 +616,7 @@ input:focus {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3 fr 700px);
     justify-items: center;
+    padding: 2rem;
   }
 }
 .imagen-actividades {
@@ -678,49 +718,71 @@ input:focus {
     padding-left: 12rem;
     padding-right: 12rem;
   }
+  .titulo-secciones-gastronomia {
+    font-size: 2.5rem;
+  }
+  .subtitulo-seccion-gastronomia {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
   .parrafo-gastronomia {
-    font-weight: 900;
     font-size: 1.3rem;
   }
 }
 .img {
-  width: 100%;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
-.img-artesanias {
-  height: 250px;
+
+.contenedor-img {
+  padding-left: 0.2rem;
+  padding-top: 1rem;
 }
-.img-especias {
-  height: 200px;
-  translate: 0px -50px;
-}
-.img-textiles {
-  height: 200px;
-  translate: 0px -50px;
+
+.lista-compras {
+  display: none;
 }
 
 @media (min-width: 768px) {
-  .img {
-    padding-left: 3rem;
-    padding-right: 3rem;
+  .contenedor-img {
+    padding-left: 0.8rem;
+    padding-top: 2rem;
   }
-  .img:hover {
-    transform: scaleX(1.2);
+  .lista-compras {
+    display: inline-flex;
+    gap: 5.2rem;
+    padding-top: 0.5rem;
   }
 }
 @media (min-width: 1200px) {
   .img {
-    width: 500px;
+    width: 150px;
     height: 150px;
+    object-fit: cover;
   }
-  .contenedor-compras-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .img:hover {
+    transform: scale(1.5);
+  }
+  .lista-compras {
+    display: inline-flex;
+    gap: 6.5rem;
+    padding-left: 13rem;
+    padding-top: 0.5rem;
+  }
+  .contenedor-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  .bazar {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    margin-left: 3.5rem;
+    padding-right: 2rem;
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
