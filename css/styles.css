@@ -112,7 +112,7 @@ a:active {
 
 @media (min-width: 768px) {
   .portada-newsletter {
-    height: 70vh;
+    height: 355px;
   }
   .portada-newsletter-suscribite {
     margin-right: 3.1rem;
@@ -132,7 +132,7 @@ a:active {
 }
 @media (min-width: 1200px) {
   .portada-newsletter {
-    height: 95vh;
+    height: 550px;
   }
   .portada-newsletter-suscribite {
     margin-right: 5rem;
